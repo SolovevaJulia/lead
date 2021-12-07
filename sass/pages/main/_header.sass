@@ -1,0 +1,46 @@
+.header
+    background-image: url(../img/header/bg-header.png)
+    padding: 42px 0 330px 0
+    background-repeat: no-repeat
+    &-menu
+        &-wrapper
+            margin-bottom: 100px
+        &-list
+            &-item
+                list-style: none
+                color: $light-color
+                margin-right: 30px
+                @include menu-text-style
+        &-enter
+            &-text
+                color: $blue-color
+                @include small-text-style
+                margin-right: 25px
+    &-wrapper
+        &-subtitle
+            font-size: 30px
+            font-weight: 400
+            font-style: normal
+            letter-spacing: normal
+            line-height: normal
+            color: $pink-color
+            margin-left: 394px
+            margin-bottom: 6px
+        &-title
+            font-size: 50px
+            font-weight: 700
+            font-style: normal
+            letter-spacing: normal
+            line-height: normal
+            color: $light-color
+            margin-bottom: 46px
+        &-text
+            @include text-style
+            color: $light-color
+            width: 629px
+            margin-bottom: 42px
+        &-button
+            padding: 19px 82px
+            @include button
+            color: $light-color
+            background-color: $pink-color
