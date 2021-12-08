@@ -50,7 +50,7 @@ ul {
 
 @media screen and (max-width: 575px) and (min-width: 280px) {
   .container {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 @media (min-width: 576px) {
@@ -162,6 +162,10 @@ ul {
   background-color: #f9807d;
 }
 
+.modal-menu {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 42px 0 130px 0;
@@ -261,6 +265,55 @@ ul {
   }
   .header-menu-mobile-button > span:last-child {
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .header-menu-enter-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-menu {
+    position: absolute;
+    z-index: 99;
+    left: 30px;
+    right: 30px;
+    display: block;
+    background-color: white;
+  }
+  .modal-menu-list {
+    display: grid;
+    padding: 10px;
+  }
+  .modal-menu-list-items {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  .modal-menu-item {
+    margin-bottom: 10px;
+    color: #0c0c0c;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 458px) {
+  .modal-list-item {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .modal-list-item:last-child {
+    margin-bottom: 0;
+  }
+  .modal-menu-list {
+    padding: 15px;
+  }
+  .modal-menu-list-items {
+    display: block;
   }
 }
 .footer {
