@@ -4,17 +4,21 @@
     background-repeat: no-repeat
     background-size: cover
     &-menu
+        &-mobile
+            &-button
+                display: none
         &-wrapper
             margin-bottom: 100px
         &-list
-            &-items
-                display: flex
-                flex-wrap: wrap
+            &-mobile
+                display: none
             &-item
                 list-style: none
                 color: $light-color
                 margin-right: 30px
                 @include menu-text-style
+                &__more
+                    display: none
         &-enter
             &-text
                 color: $blue-color
