@@ -317,6 +317,7 @@ ul {
     right: 30px;
     display: block;
     background-color: white;
+    top: 13%;
   }
   .modal-menu-list {
     display: grid;
