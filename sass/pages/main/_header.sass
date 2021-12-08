@@ -2,10 +2,14 @@
     background-image: url(../img/header/bg-header.png)
     padding: 42px 0 330px 0
     background-repeat: no-repeat
+    background-size: cover
     &-menu
         &-wrapper
             margin-bottom: 100px
         &-list
+            &-items
+                display: flex
+                flex-wrap: wrap
             &-item
                 list-style: none
                 color: $light-color
@@ -44,3 +48,13 @@
             @include button
             color: $light-color
             background-color: $pink-color
+
+@media (max-width: 1200px)
+    .header
+        padding: 42px 0 130px 0
+        &-menu
+            &-wrapper
+                margin-bottom: 30px
+        &-wrapper
+            &-title
+                margin-bottom: 20px
