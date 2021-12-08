@@ -1,0 +1,32 @@
+@media screen and  (max-width: 1200px)
+    .header
+        &-menu
+            &-list
+                &-mobile
+                    display: block
+                    position: absolute
+                    margin-top: 15px
+                    & > li
+                        margin-bottom: 15px
+                        &:nth-child(1)
+                            display: none
+                        &:nth-child(2)
+                            display: none
+                &-item
+                    position: relative
+                    &:nth-child(8)
+                        display: none
+                    &:nth-child(7)
+                        display: none
+                    &:nth-child(6)
+                        display: none
+                    &__more
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        position: relative
+                        margin-right: 0
+                        &:after
+                            content: '\25be'
+                            position: relative
+                            right: -10px

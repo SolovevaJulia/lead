@@ -3,14 +3,21 @@
     padding: 42px 0 330px 0
     background-repeat: no-repeat
     &-menu
+        &-mobile
+            &-button
+                display: none
         &-wrapper
             margin-bottom: 100px
         &-list
+            &-mobile
+                display: none
             &-item
                 list-style: none
                 color: $light-color
                 margin-right: 30px
                 @include menu-text-style
+                &__more
+                    display: none
         &-enter
             &-text
                 color: $blue-color
