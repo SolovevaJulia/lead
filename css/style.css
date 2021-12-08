@@ -314,19 +314,4 @@ ul {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-}
-
-.card-one {
-  width: 223px;
-  margin: 0 auto;
-}
-
-.card-two {
-  width: 304px;
-  margin: 0 auto;
-}
-
-.card-three {
-  width: 213px;
-  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
