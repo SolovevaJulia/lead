@@ -1,6 +1,6 @@
 .footer
     background-color: #1a2030
-    padding: 65px 126px
+    padding: 65px 0
     &-menu
         &-logo
             margin-right: 60px
@@ -10,11 +10,16 @@
                 color: $light-color
                 margin-left: 10px
         &-list
+            &-items
+                flex-wrap: wrap
+                gap: 10px
             &-item
                 list-style: none
                 color: $light-color
                 margin-right: 20px
                 @include menu-text-style
+                &:last-child
+                    margin-right: 0
     &-info
         margin-top: 34px
         text-align: center

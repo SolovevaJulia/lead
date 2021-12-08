@@ -356,7 +356,7 @@ ul {
 }
 .footer {
   background-color: #1a2030;
-  padding: 65px 126px;
+  padding: 65px 0;
 }
 .footer-menu-logo {
   margin-right: 60px;
@@ -370,6 +370,10 @@ ul {
   color: #fafafc;
   margin-left: 10px;
 }
+.footer-menu-list-items {
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .footer-menu-list-item {
   list-style: none;
   color: #fafafc;
@@ -379,6 +383,9 @@ ul {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+}
+.footer-menu-list-item:last-child {
+  margin-right: 0;
 }
 .footer-info {
   margin-top: 34px;
@@ -392,6 +399,14 @@ ul {
   opacity: 0.2;
 }
 
+@media screen and (max-width: 575px) {
+  .footer-menu-wrapper {
+    flex-wrap: wrap;
+  }
+  .footer-menu-wrapper-auf {
+    order: 2;
+  }
+}
 .service {
   padding: 113px 0 0 0;
 }
