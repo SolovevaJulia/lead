@@ -1,0 +1,21 @@
+.card
+    @include card
+    &-title
+        align-items: center
+        &-img
+            margin-right: 21px
+        &-text
+            @include card-title
+    &-descr
+        border-top: 2px solid $dark-color
+        margin: 30px 0 50px 0
+        &-text
+            margin-top: 20px
+            @include small-text-style
+            color: $dark-color
+    &-price
+        &-left
+            @include small-text-style
+        &-right
+            @include small-text-style
+            color: $blue-color

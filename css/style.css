@@ -719,6 +719,18 @@ ul {
   margin-bottom: 56px;
   text-align: center;
 }
+.offer-more {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #03037a;
+  text-align: right;
+  display: block;
+  margin-top: 25px;
+}
+
 .header-sections {
   background-image: url(../img/header-sections.svg);
   background-repeat: no-repeat;
@@ -1369,4 +1381,55 @@ ul {
   .feedback-form-left {
     width: 100%;
   }
+}
+.card {
+  box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16);
+  border-radius: 20px;
+  background-color: #fafafc;
+  padding: 71px 40px;
+  width: 430px;
+  min-width: 30%;
+  margin-right: 20px;
+}
+.card-title {
+  align-items: center;
+}
+.card-title-img {
+  margin-right: 21px;
+}
+.card-title-text {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+}
+.card-descr {
+  border-top: 2px solid #0c0c0c;
+  margin: 30px 0 50px 0;
+}
+.card-descr-text {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #0c0c0c;
+}
+.card-price-left {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+.card-price-right {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #03037a;
 }/*# sourceMappingURL=style.css.map */

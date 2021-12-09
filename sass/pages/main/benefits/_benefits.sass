@@ -8,24 +8,13 @@
         text-align: center
     &-wrapper
         &-card
-            box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16)
-            border-radius: 20px
-            background-color: $light-color
-            padding: 71px 40px
-            width: 430px
-            min-width: 30%
-            margin-right: 20px
+            @include card
             &-title
                 align-items: center
                 &-img
                     margin-right: 37px
                 &-text
-                    font-size: 25px
-                    font-weight: 400
-                    font-style: normal
-                    letter-spacing: normal
-                    line-height: normal
-                    color: $blue-color
+                    @include card-title
             &-descr
                 border-top: 2px solid $dark-color
                 margin: 30px 0 50px 0
