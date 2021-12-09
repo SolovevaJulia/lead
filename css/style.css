@@ -85,7 +85,7 @@ ul {
   }
 }
 .header {
-  background-image: url(../img/header/bg-header.png);
+  background-image: url(../img/main/header/bg-header.png);
   padding: 42px 0 330px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -705,6 +705,19 @@ ul {
   .card-three {
     width: 100%;
   }
+}
+.offer {
+  padding: 105px 0;
+}
+.offer-title {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 56px;
+  text-align: center;
 }
 .header-sections {
   background-image: url(../img/header-sections.svg);
