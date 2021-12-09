@@ -1,0 +1,64 @@
+.form
+    border-radius: 20px
+    background-image: linear-gradient(to top, #344ec6 0%, #4364cf 100%)
+    padding: 65px 71px
+    & > input
+        border-radius: 15px
+        background-color: $white-color
+        border: none
+        padding: 22px 0 22px 35px
+        width: 100%
+        margin-bottom: 20px
+        @include input
+    & > textarea
+        border-radius: 15px
+        background-color: $white-color
+        border: none
+        padding: 22px 0 22px 35px
+        width: 100%
+        margin-bottom: 20px
+        @include input
+        height: 111px
+    &-licene
+        margin-bottom: 29px
+        & > input
+            margin: 0 15px 0 26px
+            width: 16px
+            height: 16px
+        & > p
+            @include small-text-style
+            opacity: 0.6
+            color: $white-color
+    & > button
+        border-radius: 10px
+        background-color: $white-color
+        border: none
+        padding: 22px 0 22px 35px
+        width: 100%
+        @include button
+        background-color: #f9807d
+        // background-color: #dc8201
+        color: $white-color
+    &-buttons
+        margin-bottom: 15px
+        display: flex
+        justify-content: space-between
+        width: 100%
+        background-color: transparent
+        & > button
+            border-radius: 15px
+            padding: 22px 0 22px 0
+            width: 49.7%
+            text-align: left
+            @include small-text-style
+            padding-left: 36px
+            height: inherit
+            background-color: #e3edfc
+            &:nth-child(1)
+                border-bottom-right-radius: 0
+                border-top-right-radius: 0
+            &:nth-child(2)
+                border-bottom-left-radius: 0
+                border-top-left-radius: 0
+    .active
+        background-color: $white-color
