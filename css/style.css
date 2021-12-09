@@ -1252,6 +1252,11 @@ ul {
   background-color: #ffffff;
 }
 
+@media screen and (max-width: 576px) {
+  .form {
+    padding: 45px 25px;
+  }
+}
 .feedback-form {
   margin-bottom: 104px;
 }
@@ -1271,4 +1276,22 @@ ul {
   width: 60%;
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+  .feedback-form-right > img {
+    width: 416px;
+    height: 416px;
+  }
+  .feedback-form-left {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .feedback-form-right {
+    display: none;
+  }
+  .feedback-form-left {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
