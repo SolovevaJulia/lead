@@ -110,6 +110,10 @@ ul {
   line-height: normal;
   text-decoration: none;
 }
+.header-menu-list-item:hover {
+  font-weight: 500;
+  color: #ffffff;
+}
 .header-menu-list-item__more {
   display: none;
 }
@@ -190,12 +194,17 @@ ul {
     margin-bottom: 30px;
   }
   .header-menu-list-mobile {
-    display: block;
+    display: none;
     position: absolute;
     margin-top: 15px;
+    margin-right: 15px;
+    background-color: #f9807d;
+    width: 19%;
   }
   .header-menu-list-mobile > a {
-    margin-bottom: 15px;
+    display: block;
+    padding: 9px;
+    cursor: pointer;
   }
   .header-menu-list-mobile > a:nth-child(1) {
     display: none;
@@ -221,6 +230,7 @@ ul {
     justify-content: center;
     position: relative;
     margin-right: 0;
+    cursor: pointer;
   }
   .header-menu-list-item__more:after {
     content: "▾";
@@ -332,11 +342,11 @@ ul {
   .modal-menu {
     position: absolute;
     z-index: 99;
-    left: 30px;
+    left: 44px;
     right: 30px;
-    display: block;
-    background-color: white;
-    top: 13%;
+    display: none;
+    background-color: #f9807d;
+    top: 101px;
   }
   .modal-menu-list {
     display: grid;
@@ -347,30 +357,48 @@ ul {
     gap: 16px;
     flex-wrap: wrap;
     padding: 15px;
-  }
-  .modal-menu-item {
-    margin-bottom: 10px;
-    color: #0c0c0c;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    cursor: pointer;
+  }
+  .modal-menu-list-item {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .modal-menu-list-item:hover {
+    font-weight: 500;
+    color: #ffffff;
   }
 }
-@media screen and (max-width: 458px) {
-  .modal-list-item {
-    display: block;
-    margin-bottom: 15px;
-  }
-  .modal-list-item:last-child {
-    margin-bottom: 0;
+@media screen and (max-width: 576px) {
+  .modal-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
   }
   .modal-menu-list {
-    padding: 15px;
+    height: inherit;
   }
   .modal-menu-list-items {
-    display: block;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    justify-content: center;
+  }
+  .modal-menu-list-item {
+    color: #ffffff;
+    text-decoration: none;
   }
 }
 .footer {
@@ -683,6 +711,8 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 42px 0 42px 0;
+  position: relative;
+  z-index: 99;
 }
 .header-sections-menu-enter-text {
   color: #fafafc;

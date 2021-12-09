@@ -3,11 +3,11 @@
         &-menu
             position: absolute
             z-index: 99
-            left: 30px
+            left: 44px
             right: 30px
-            display: block
-            background-color: white
-            top: 13%
+            display: none
+            background-color: $pink-color
+            top: 101px
             &-list
                 display: grid
                 padding: 10px
@@ -16,21 +16,35 @@
                     gap: 16px
                     flex-wrap: wrap
                     padding: 15px
-            &-item
-                margin-bottom: 10px
-                color: $dark-color
-                @include menu-text-style
-
-@media screen and  (max-width: 458px)
+                    color: $white-color
+                    @include menu-text-style
+                    cursor: pointer
+                &-item
+                    color: $white-color
+                    text-decoration: none
+                    &:hover
+                        font-weight: 500
+                        color: #ffffff
+@media screen and  (max-width: 576px)
     .modal
-        &-list
-            &-item
-                display: block
-                margin-bottom: 15px
-                &:last-child
-                    margin-bottom: 0
         &-menu
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            left: 0
+            right: 0
+            bottom: 0
+            display: none
             &-list
-                padding: 15px
+                height: inherit
                 &-items
-                    display: block
+                    display: flex
+                    height: inherit
+                    flex-direction: column
+                    align-items: center
+                    font-size: 36px
+                    justify-content: center
+                &-item
+                    color: $white-color
+                    text-decoration: none
