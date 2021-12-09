@@ -1,0 +1,62 @@
+.referal
+    &-main
+        background-color: $light-color
+        padding: 0 0 96px 0
+        &-left
+            width: 50%
+            &-buttons
+                margin-bottom: 34px
+                & > button
+                    width: 48%
+                    @include button
+                    padding: 19px 0
+                    border-radius: 10px
+                    cursor: pointer
+                    &:nth-child(1)
+                        color: #ffffff
+                        background-color: #f9807d
+                        // background-color: #dc8201
+                    &:nth-child(2)
+                        color: #f9807d
+                        background-color: #ffffff
+                        border: 1px solid #f9807d
+                        position: relative
+                        &::before
+                            content: ''
+                            position: absolute
+                            background-image: url(../img/referal/copy-icon.webp)
+                            width: 25px
+                            height: 29px
+                            left: 55px
+            &-form
+                & > input
+                    width: 100%
+                    border-radius: 15px
+                    border: 1px solid $blue-color
+                    background-color: #ffffff
+                    padding: 20px 0 20px 37px
+                    border-radius: 15px
+                    border: 1px solid #3753c8
+                    background-color: #ffffff
+                    margin-bottom: 25px
+            & > h1
+                color: $blue-color
+                @include title-style
+                margin-bottom: 35px
+            & > p
+                color: $dark-color
+                @include text-style
+                &:nth-child(2)
+                    margin-bottom: 40px
+                &:nth-child(3)
+                    margin-bottom: 40px
+            & > h3
+                color: $blue-color
+                @include subtitle-style
+                margin-bottom: 31px
+            & > span
+                @include text-style
+        &-right
+            & > img
+                width: 636px
+                height: 607px

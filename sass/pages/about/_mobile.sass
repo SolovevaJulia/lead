@@ -13,12 +13,7 @@
                 width: 68%
                 & > h1
                     color: $blue-color
-                    font-size: 45px
-                    font-weight: 700
-                    font-style: normal
-                    letter-spacing: normal
-                    line-height: normal
-                    text-align: left
+                    @include title-style
                     margin-bottom: 35px
                 & > p
                     color: $dark-color
@@ -34,9 +29,6 @@
                     & > span
                         color: $blue-color
                         font-weight: 700
-                        font-style: normal
-                        letter-spacing: normal
-                        line-height: normal
 
 @media screen and  (max-width: 992px)
     .about
@@ -54,12 +46,7 @@
                 width: 68%
                 & > h1
                     color: $blue-color
-                    font-size: 30px
-                    font-weight: 700
-                    font-style: normal
-                    letter-spacing: normal
-                    line-height: normal
-                    text-align: left
+                    @include title-style
                     margin-bottom: 18px
                 & > p
                     color: $dark-color
@@ -75,9 +62,6 @@
                     & > span
                         color: $blue-color
                         font-weight: 700
-                        font-style: normal
-                        letter-spacing: normal
-                        line-height: normal
 
 @media screen and  (max-width: 768px)
     .about
