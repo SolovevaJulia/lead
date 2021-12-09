@@ -1148,6 +1148,37 @@ ul {
     width: 100%;
   }
 }
+.reg-main {
+  padding: 105px 0;
+}
+.reg-main-wrapper-left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.reg-main-wrapper-right {
+  width: 50%;
+}
+.reg-main-wrapper-right > h1 {
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 57px;
+  color: #03037a;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .reg-main-wrapper-left {
+    display: none;
+  }
+  .reg-main-wrapper-right {
+    width: 100%;
+  }
+}
 .form {
   border-radius: 20px;
   background-image: linear-gradient(to top, #344ec6 0%, #4364cf 100%);
