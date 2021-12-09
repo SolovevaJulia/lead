@@ -107,6 +107,7 @@ ul {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+  text-decoration: none;
 }
 .header-menu-list-item__more {
   display: none;
@@ -192,13 +193,13 @@ ul {
     position: absolute;
     margin-top: 15px;
   }
-  .header-menu-list-mobile > li {
+  .header-menu-list-mobile > a {
     margin-bottom: 15px;
   }
-  .header-menu-list-mobile > li:nth-child(1) {
+  .header-menu-list-mobile > a:nth-child(1) {
     display: none;
   }
-  .header-menu-list-mobile > li:nth-child(2) {
+  .header-menu-list-mobile > a:nth-child(2) {
     display: none;
   }
   .header-menu-list-item {
@@ -230,19 +231,19 @@ ul {
   .header {
     padding: 42px 0;
   }
-  .header-menu-list-mobile > li:nth-child(1) {
+  .header-menu-list-mobile > a:nth-child(1) {
     display: block;
   }
-  .header-menu-list-mobile > li:nth-child(2) {
+  .header-menu-list-mobile > a:nth-child(2) {
     display: block;
   }
-  .header-menu-list-mobile > li:nth-child(3) {
+  .header-menu-list-mobile > a:nth-child(3) {
     display: block;
   }
-  .header-menu-list-mobile > li:nth-child(4) {
+  .header-menu-list-mobile > a:nth-child(4) {
     display: block;
   }
-  .header-menu-list-mobile > li:nth-child(5) {
+  .header-menu-list-mobile > a:nth-child(5) {
     display: block;
   }
   .header-menu-list-item:nth-child(5) {
@@ -696,7 +697,7 @@ ul {
   padding: 51px 0 63px 0;
   background-color: #fafafc;
 }
-.breadcrumbs-wrapper > p {
+.breadcrumbs-wrapper > a {
   opacity: 0.7;
   color: #0c0c0c;
   font-family: Raleway;
@@ -707,11 +708,12 @@ ul {
   line-height: normal;
   text-align: left;
   cursor: pointer;
+  text-decoration: none;
 }
-.breadcrumbs-wrapper > p:nth-child(1) {
+.breadcrumbs-wrapper > a:nth-child(1) {
   margin-right: 5px;
 }
-.breadcrumbs-wrapper > p:nth-child(2) {
+.breadcrumbs-wrapper > span {
   margin-right: 5px;
 }
 
