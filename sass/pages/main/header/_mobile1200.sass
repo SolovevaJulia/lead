@@ -9,11 +9,16 @@
                 margin-bottom: 30px
             &-list
                 &-mobile
-                    display: block
+                    display: none
                     position: absolute
                     margin-top: 15px
+                    margin-right: 15px
+                    background-color: $pink-color
+                    width: 19%
                     & > a
-                        margin-bottom: 15px
+                        display: block
+                        padding: 9px
+                        cursor: pointer
                         &:nth-child(1)
                             display: none
                         &:nth-child(2)
@@ -32,6 +37,7 @@
                         justify-content: center
                         position: relative
                         margin-right: 0
+                        cursor: pointer
                         &:after
                             content: '\25be'
                             position: relative
