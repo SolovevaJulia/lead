@@ -710,6 +710,13 @@ ul {
 .offer {
   padding: 105px 0;
 }
+.offer__main {
+  padding: 0;
+}
+.offer-wrapper__main {
+  flex-wrap: wrap;
+  gap: 32px;
+}
 .offer-arrow-left {
   position: absolute;
   top: 50%;
@@ -733,6 +740,9 @@ ul {
   color: #03037a;
   margin-bottom: 56px;
   text-align: center;
+}
+.offer-title__main {
+  text-align: left;
 }
 .offer-more {
   font-size: 18px;
@@ -1277,7 +1287,6 @@ ul {
   border: none;
   padding: 22px 0 22px 35px;
   width: 100%;
-  margin-bottom: 20px;
   color: #272727;
   font-family: Raleway;
   font-size: 18px;
@@ -1306,6 +1315,7 @@ ul {
   color: #ffffff;
 }
 .form > button {
+  margin-top: 45px;
   border-radius: 10px;
   background-color: #ffffff;
   border: none;
@@ -1359,6 +1369,23 @@ ul {
     padding: 45px 25px;
   }
 }
+.form-individual {
+  margin: 104px 0 97px 0;
+}
+.form-individual-left > h3 {
+  margin-bottom: 37px;
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+}
+.form-individual-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .feedback-form {
   margin-bottom: 104px;
 }
@@ -1406,6 +1433,11 @@ ul {
   min-width: 30%;
   margin-right: 20px;
   height: 446px;
+}
+.card__main {
+  max-width: 426px;
+  min-width: 30%;
+  margin-right: 0;
 }
 .card-title {
   align-items: center;
