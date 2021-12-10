@@ -625,16 +625,19 @@ ul {
 .card-one {
   width: 223px;
   margin: 0 auto;
+  height: 60px;
 }
 
 .card-two {
   width: 304px;
   margin: 0 auto;
+  height: 60px;
 }
 
 .card-three {
   width: 213px;
   margin: 0 auto;
+  height: 60px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1481,4 +1484,44 @@ ul {
   letter-spacing: normal;
   line-height: 29px;
   color: #03037a;
+}
+.card-button {
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #f9807d;
+  width: 100%;
+  padding: 20px 0;
+  background-color: transparent;
+  color: #f9807d;
+}
+
+@media screen and (max-width: 1370px) {
+  .card__main {
+    max-width: 348px;
+    min-width: 30%;
+  }
+  .card-title-img__main {
+    width: 4rem;
+  }
+  .card-title-text__main {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card__main {
+    max-width: 45%;
+    min-width: 45%;
+  }
+  .card-title-img__main {
+    width: 4rem;
+  }
+  .card-title-text__main {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
