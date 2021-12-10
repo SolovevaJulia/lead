@@ -7,7 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="js/flickity/flickity.css"> -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
     <title>Лид без обид</title>
 </head>
 <body>
@@ -147,8 +150,9 @@
     <section class="offer">
         <div class="container">
             <h2 class="offer-title">Наши офферы</h2>
-            <div class="offer-wrapper d-flex space-between">
-                <div class="card">
+            <img src="img/main/offer/arrow-left.png" class="offer-arrow-left" alt="стрелка влево">
+            <div class="main-carousel">
+                <div class="carousel-cell card ">
                     <div class="card-title d-flex">
                         <img src="img/main/offer/tel.png" alt="" class="card-title-img">
                         <span class="card-title-text">Ремонт цифровой техники</span>
@@ -167,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card carousel-cell">
                     <div class="card-title d-flex">
                         <img src="img/main/offer/washer.png" alt="" class="card-title-img">
                         <span class="card-title-text">Ремонт крупной бытовой техники</span>
@@ -187,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card carousel-cell">
                     <div class="card-title d-flex">
                         <img src="img/main/offer/car.png" alt="" class="card-title-img">
                         <span class="card-title-text">Ремонт автомобилей</span>
@@ -207,8 +211,49 @@
                         </div>
                     </div>
                 </div>
+                <div class="card carousel-cell">
+                    <div class="card-title d-flex">
+                        <img src="img/main/offer/icon-all-service.webp" alt="" class="card-title-img">
+                        <span class="card-title-text">Все услуги ремонта квартир</span>
+                    </div>
+                    <div class="card-descr">
+                        <p class="card-descr-text">Заявки на ремонт квартир: капитальный ремонт, отделочные работы, установка окон, покраска потолков, установка мебели и
+                        т.д.</p>
+                    </div>
+                    <div class="card-price d-flex space-between">
+                        <div class="card-price-left d-flex column">
+                            <span class="card-price-left-text">Москва/Питер</span>
+                            <span class="card-price-left-text">Регионы</span>
+                        </div>
+                        <div class="card-price-right d-flex column">
+                            <span class="card-price-right-cost">от 300₽</span>
+                            <span class="card-price-right-cost">от 200₽</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card carousel-cell">
+                    <div class="card-title d-flex">
+                        <img src="img/main/offer/smartphone-device.webp" alt="" class="card-title-img">
+                        <span class="card-title-text">Компьютерная помощь</span>
+                    </div>
+                    <div class="card-descr">
+                        <p class="card-descr-text">Лиды на запись на настройку сети, установку Windows, удаление вирусов, установку драйверов, обслуживание компьютеров и
+                        т.д</p>
+                    </div>
+                    <div class="card-price d-flex space-between">
+                        <div class="card-price-left d-flex column">
+                            <span class="card-price-left-text">Москва/Питер</span>
+                            <span class="card-price-left-text">Регионы</span>
+                        </div>
+                        <div class="card-price-right d-flex column">
+                            <span class="card-price-right-cost">от 300₽</span>
+                            <span class="card-price-right-cost">от 200₽</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <span class="offer-more">Смотреть весь список</span>
+            <img src="img/main/offer/arrow-right.png" class="offer-arrow-right" alt="стрелка вправо">
+            <a href="offers.html" class="offer-more">Смотреть весь список</span>
         </div>
     </section>
     <section class="footer">
@@ -259,7 +304,11 @@
             </div>
     </section>
     <!-- Модальное окно меню -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- <script src="js/flickity/flickity.min.js"></script> -->
+    <script src="js/flickity/main.js"></script>
     <script src="js/index.js"></script>
+    
     
 </body>
 </html>

@@ -47,6 +47,7 @@ ul {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 
 @media screen and (max-width: 575px) and (min-width: 280px) {
@@ -708,6 +709,20 @@ ul {
 }
 .offer {
   padding: 105px 0;
+}
+.offer-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: -1%;
+  z-index: 99;
+  cursor: pointer;
+}
+.offer-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: -1%;
+  z-index: 100;
+  cursor: pointer;
 }
 .offer-title {
   font-size: 45px;
@@ -1390,9 +1405,11 @@ ul {
   width: 430px;
   min-width: 30%;
   margin-right: 20px;
+  height: 446px;
 }
 .card-title {
   align-items: center;
+  height: 50px;
 }
 .card-title-img {
   margin-right: 21px;
