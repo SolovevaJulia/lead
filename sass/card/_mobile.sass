@@ -12,6 +12,10 @@
                     font-size: 1.2rem
 
 @media screen and  (max-width: 1200px)
+    .offer
+        &-wrapper
+            &__main
+                justify-content: space-between
     .card
         &__main
             max-width: 45%
@@ -23,3 +27,16 @@
             &-text
                 &__main
                     font-size: 1.2rem
+
+@media screen and  (max-width: 992px)
+    .offer
+        &-wrapper
+            &__main
+                flex-direction: column
+    .card
+        &__main
+            max-width: 100%
+            width: 100%
+        &-title
+            justify-content: center
+@media screen and  (max-width: 576px)
