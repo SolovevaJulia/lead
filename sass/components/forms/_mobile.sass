@@ -1,16 +1,23 @@
 @media screen and  (max-width: 1200px)
     .feedback
         &-form
-            &-right
-                & > img
-                    width: 416px
-                    height: 416px
-            &-left
-                width: 60%
-@media screen and  (max-width: 992px)
-    .feedback
-        &-form
+            & > h3
+                text-align: center
+            &-wrapper
+                justify-content: center
             &-right
                 display: none
             &-left
+                width: 80%
+@media screen and  (max-width: 992px)
+    .feedback
+        &-form
+            &-left
                 width: 100%
+@media screen and  (max-width: 576px)
+    .feedback
+        &-form
+            margin-bottom: 60px
+            & > div
+                & > h3
+                    font-size: 26px
