@@ -1,7 +1,9 @@
 const initizilizationSlider = () => {
   if (flkty !== 'undefined') {
-    const viewport = document.querySelector('.flickity-viewport')
-    viewport.style.height = `${450}px`
+    const viewport = document.querySelectorAll('.carousel-cell')
+    viewport.forEach((item) => {
+      item.style.paddingBottom = `${65}px`
+    })
   } else {
     return
   }
