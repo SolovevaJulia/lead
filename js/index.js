@@ -22,9 +22,11 @@ const listenerButtons = (e) => {
 
 buttons.more.addEventListener('click', (e) =>  listenerButtons(e))
 buttons.menu.addEventListener('click', (e) => {
-    if ( wrapper.mobile.style.display === 'block') {
+    if ( wrapper.mobile.style.display === 'flex') {
          wrapper.mobile.style.display = 'none'
+         document.body.style.overflow = 'visible'
     } else {
-        wrapper.mobile.style.display = 'block'
+        document.body.style.overflow = 'hidden'
+        wrapper.mobile.style.display = 'flex'
     }
 })

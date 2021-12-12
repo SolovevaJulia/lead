@@ -199,7 +199,7 @@ ul {
     position: absolute;
     margin-top: 15px;
     margin-right: 15px;
-    background-color: #f9807d;
+    background-color: #3d6dd4;
     width: 19%;
   }
   .header-menu-list-mobile > a {
@@ -320,10 +320,13 @@ ul {
 @media screen and (max-width: 575px) {
   .header {
     background-size: auto;
-    padding: 42px 0 70px 0;
+    padding: 15px 0 70px 0;
   }
   .header-menu-enter-text {
     display: none;
+  }
+  .header-wrapper {
+    margin-top: 40px;
   }
   .header-wrapper-title {
     font-size: 22px;
@@ -347,7 +350,7 @@ ul {
     left: 44px;
     right: 30px;
     display: none;
-    background-color: #f9807d;
+    background-color: #3d6dd4;
     top: 101px;
   }
   .modal-menu-list {
@@ -378,13 +381,14 @@ ul {
 }
 @media screen and (max-width: 576px) {
   .modal-menu {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     left: 0;
     right: 0;
     bottom: 0;
+    top: 74px;
+    position: absolute;
     display: none;
   }
   .modal-menu-list {
@@ -756,6 +760,9 @@ ul {
   }
 }
 @media screen and (max-width: 576px) {
+  .contract {
+    padding: 57px 0 57px 0;
+  }
   .contract-wrapper {
     margin-left: 0;
   }
@@ -816,7 +823,7 @@ ul {
 }
 @media screen and (max-width: 576px) {
   .offer {
-    padding: 0;
+    padding-top: 50px;
   }
   .offer-title {
     font-size: 38px;
