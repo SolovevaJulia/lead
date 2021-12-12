@@ -1443,6 +1443,56 @@ ul {
     line-height: 24px;
   }
 }
+.price-title {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 27px;
+}
+.price-wrapper {
+  margin-bottom: 64px;
+}
+.price-wrapper-left {
+  width: 48%;
+}
+.price-wrapper-left-text {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #0c0c0c;
+  margin-bottom: 38px;
+}
+.price-wrapper-right {
+  width: 48%;
+}
+.price-wrapper-right-img {
+  width: 80%;
+}
+
+@media screen and (max-width: 992px) {
+  .price-wrapper-left {
+    width: 100%;
+  }
+  .price-wrapper-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .price-title {
+    font-size: 36px;
+  }
+  .price-wrapper {
+    margin-bottom: 0;
+  }
+  .price-wrapper-left-text {
+    font-size: 18px;
+  }
+}
 .form {
   border-radius: 20px;
   background-image: linear-gradient(to top, #344ec6 0%, #4364cf 100%);
@@ -1566,13 +1616,23 @@ ul {
 }
 @media screen and (max-width: 576px) {
   .form {
-    padding: 45px 25px;
+    padding: 20px 20px;
+  }
+  .form > input {
+    padding: 10px 0 10px 20px;
   }
   .form-individual-left > h3 {
     font-size: 23px;
   }
+  .form-buttons > button {
+    padding: 8px 0 8px 14px;
+  }
   .form > button {
-    padding: 22px 0;
+    padding: 14px 0;
+    margin-top: 5px;
+  }
+  .form > textarea {
+    padding: 10px 0 10px 20px;
   }
 }
 .form-individual {
@@ -1989,29 +2049,41 @@ ul {
   color: #03037a;
 }
 .feedback-form-left {
-  width: 40%;
+  width: 50%;
 }
 .feedback-form-right {
-  width: 60%;
-  display: flex;
-  justify-content: flex-end;
+  width: 46%;
+  padding: 30px 0;
+}
+.feedback-form-right > img {
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-  .feedback-form-right > img {
-    width: 416px;
-    height: 416px;
+  .feedback-form > h3 {
+    text-align: center;
   }
-  .feedback-form-left {
-    width: 60%;
+  .feedback-form-wrapper {
+    justify-content: center;
   }
-}
-@media screen and (max-width: 992px) {
   .feedback-form-right {
     display: none;
   }
   .feedback-form-left {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .feedback-form-left {
     width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .feedback-form {
+    margin-bottom: 60px;
+  }
+  .feedback-form > div > h3 {
+    font-size: 26px;
   }
 }
 .card {
