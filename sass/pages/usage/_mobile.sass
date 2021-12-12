@@ -1,5 +1,7 @@
 @media screen and  (max-width: 992px)
     .usage
+        &-title
+            margin-bottom: 30px
         &-wrapper
             flex-direction: column
             &-left
@@ -10,17 +12,24 @@
                 width: 100%
                 &-img
                     display: none
+            &-text
+                margin-bottom: 0
 @media screen and  (max-width: 768px)
+    .usage
+        &-wrapper
+            &-img
+                margin: 20px 0
 @media screen and  (max-width: 576px)
     .usage
         &-title
-            margin-bottom: 30px
-            font-size: 30px
+            margin-bottom: 20px
+            font-size: 38px
         &-wrapper
             margin-bottom: 0
             &-title
                 font-size: 24px
                 margin-bottom: 10px
             &-text
-                font-size: 16px
+                font-size: 18px
                 line-height: 24px
+                margin-bottom: 20px

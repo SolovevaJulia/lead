@@ -1,0 +1,17 @@
+.contract
+    padding: 0 0 105px 0
+    &-wrapper
+        align-items: center
+        margin-left: 115px
+        &-img
+            margin-right: 25px
+        &-text
+            @include small-text-style
+            color: $dark-color
+@media screen and  (max-width: 768px)
+    .contract
+        padding: 0 0 57px 0
+@media screen and  (max-width: 576px)
+    .contract
+        &-wrapper
+            margin-left: 0

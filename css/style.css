@@ -87,7 +87,7 @@ ul {
 }
 .header {
   background-image: url(../img/main/header/bg-header.png);
-  padding: 42px 0 330px 0;
+  padding: 42px 0 500px 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -186,7 +186,7 @@ ul {
 }
 @media screen and (max-width: 1200px) {
   .header {
-    padding: 42px 0 130px 0;
+    padding: 42px 0 170px 0;
   }
   .header-wrapper-title {
     margin-bottom: 20px;
@@ -241,7 +241,7 @@ ul {
 }
 @media screen and (max-width: 992px) {
   .header {
-    padding: 42px 0;
+    padding: 42px 0 130px 0;
   }
   .header-menu-list-mobile > a:nth-child(1) {
     display: block;
@@ -320,6 +320,7 @@ ul {
 @media screen and (max-width: 575px) {
   .header {
     background-size: auto;
+    padding: 42px 0 70px 0;
   }
   .header-menu-enter-text {
     display: none;
@@ -515,6 +516,12 @@ ul {
   .service-wrapper-descr:nth-child(2) {
     width: 50%;
   }
+  .service-wrapper-descr-title {
+    margin-bottom: 25px;
+  }
+  .service-wrapper-descr-subtitle {
+    margin-bottom: 16px;
+  }
   .service-wrapper-img {
     width: 50%;
     margin-right: 0;
@@ -667,6 +674,13 @@ ul {
   }
 }
 @media screen and (max-width: 768px) {
+  .benefits {
+    padding: 70px 0;
+  }
+  .benefits-title {
+    font-size: 38px;
+  }
+
   .card-two {
     width: 304px;
   }
@@ -676,7 +690,7 @@ ul {
     padding: 50px 0;
   }
   .benefits-title {
-    font-size: 26px;
+    font-size: 30px;
   }
   .benefits-wrapper-card {
     width: 100%;
@@ -704,14 +718,46 @@ ul {
 
   .card-one {
     width: 100%;
+    height: 100px;
   }
 
   .card-two {
     width: 100%;
+    height: 100px;
   }
 
   .card-three {
     width: 100%;
+    height: 100px;
+  }
+}
+.contract {
+  padding: 0 0 105px 0;
+}
+.contract-wrapper {
+  align-items: center;
+  margin-left: 115px;
+}
+.contract-wrapper-img {
+  margin-right: 25px;
+}
+.contract-wrapper-text {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #0c0c0c;
+}
+
+@media screen and (max-width: 768px) {
+  .contract {
+    padding: 0 0 57px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contract-wrapper {
+    margin-left: 0;
   }
 }
 .offer {
@@ -763,11 +809,25 @@ ul {
   margin-top: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .offer {
+    padding: 70px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .offer {
+    padding: 0;
+  }
+  .offer-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+}
 .header-sections {
   background-image: url(../img/header-sections.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 42px 0 42px 0;
+  padding: 30px 0;
   position: relative;
   z-index: 99;
 }
@@ -815,17 +875,13 @@ ul {
   padding: 0 0 96px 0;
 }
 .about-main-right {
-  width: 50%;
-  display: flex;
-  justify-content: end;
+  width: 48%;
 }
 .about-main-right-image {
-  width: 95%;
-  max-width: 554px;
-  height: 553px;
+  width: 100%;
 }
 .about-main-left {
-  width: 49%;
+  width: 48%;
 }
 .about-main-left > h1 {
   color: #03037a;
@@ -859,41 +915,15 @@ ul {
 }
 
 @media screen and (max-width: 1200px) {
-  .about-main-right {
-    width: 50%;
-    display: flex;
-    justify-content: end;
-  }
-  .about-main-right-image {
-    width: 95%;
-    max-width: 350px;
-    height: 350px;
-  }
-  .about-main-left {
-    width: 68%;
-  }
-  .about-main-left > h1 {
-    color: #03037a;
-    font-size: 45px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    margin-bottom: 35px;
-  }
   .about-main-left > p {
-    color: #0c0c0c;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 29px;
-    text-align: left;
-    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
   }
   .about-main-left > p:nth-child(3) {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .about-main-left > p:nth-child(4) {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .about-main-left > p > span {
     color: #03037a;
@@ -905,17 +935,10 @@ ul {
     padding: 0 0 50px 0;
   }
   .about-main-right {
-    width: 50%;
-    display: flex;
-    justify-content: end;
-  }
-  .about-main-right-image {
-    width: 95%;
-    max-width: 300px;
-    height: 300px;
+    display: none;
   }
   .about-main-left {
-    width: 68%;
+    width: 100%;
   }
   .about-main-left > h1 {
     color: #03037a;
@@ -927,12 +950,11 @@ ul {
     margin-bottom: 18px;
   }
   .about-main-left > p {
-    color: #0c0c0c;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
     line-height: 29px;
-    text-align: left;
-    font-weight: 500;
   }
   .about-main-left > p:nth-child(3) {
     margin-bottom: 20px;
@@ -945,15 +967,14 @@ ul {
     font-weight: 700;
   }
 }
-@media screen and (max-width: 768px) {
-  .about-main {
-    padding: 0 0 50px 0;
+@media screen and (max-width: 576px) {
+  .about-main-left > h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
   }
-  .about-main-right {
-    display: none;
-  }
-  .about-main-left {
-    width: 100%;
+  .about-main-left > p {
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 }
 .referal-main {
@@ -1091,36 +1112,6 @@ ul {
   .referal-main {
     padding: 0 0 50px 0;
   }
-  .referal-main-left {
-    width: 100%;
-  }
-  .referal-main-left > h1 {
-    color: #03037a;
-    font-size: 45px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    margin-bottom: 18px;
-  }
-  .referal-main-left > p {
-    color: #0c0c0c;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 29px;
-    text-align: left;
-    font-weight: 500;
-  }
-  .referal-main-left > p:nth-child(3) {
-    margin-bottom: 20px;
-  }
-  .referal-main-left > p:nth-child(4) {
-    margin-bottom: 20px;
-  }
-  .referal-main-left > p > span {
-    color: #03037a;
-    font-weight: 700;
-  }
 }
 @media screen and (max-width: 768px) {
   .referal-main {
@@ -1136,6 +1127,16 @@ ul {
     width: 100%;
   }
   .referal-main-left-buttons > button:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .referal-main-left > h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .referal-main-left > p {
+    font-size: 18px;
     margin-bottom: 20px;
   }
 }
@@ -1234,6 +1235,16 @@ ul {
   }
   .contact-main-wrapper-right {
     width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact-main-title > h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .contact-main-title > p {
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 }
 .reg-main {
@@ -1350,6 +1361,14 @@ ul {
   }
 }
 @media screen and (max-width: 576px) {
+  .conditions-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .conditions-wrapper-left-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
   .conditions-buttons {
     display: flex;
     flex-direction: column;
@@ -1410,6 +1429,9 @@ ul {
 }
 
 @media screen and (max-width: 992px) {
+  .usage-title {
+    margin-bottom: 30px;
+  }
   .usage-wrapper {
     flex-direction: column;
   }
@@ -1425,11 +1447,19 @@ ul {
   .usage-wrapper-right-img {
     display: none;
   }
+  .usage-wrapper-text {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .usage-wrapper-img {
+    margin: 20px 0;
+  }
 }
 @media screen and (max-width: 576px) {
   .usage-title {
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 38px;
   }
   .usage-wrapper {
     margin-bottom: 0;
@@ -1439,8 +1469,9 @@ ul {
     margin-bottom: 10px;
   }
   .usage-wrapper-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
+    margin-bottom: 20px;
   }
 }
 .price-title {
@@ -1483,14 +1514,18 @@ ul {
   }
 }
 @media screen and (max-width: 576px) {
+  .price {
+    padding: 0 0 20px 0;
+  }
   .price-title {
-    font-size: 36px;
+    font-size: 38px;
   }
   .price-wrapper {
     margin-bottom: 0;
   }
   .price-wrapper-left-text {
     font-size: 18px;
+    margin-bottom: 20px;
   }
 }
 .form {
@@ -1614,6 +1649,11 @@ ul {
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width: 768px) {
+  .form-individual-left > h3 {
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 576px) {
   .form {
     padding: 20px 20px;
@@ -1659,7 +1699,7 @@ ul {
   padding: 66px;
 }
 .dashboard-main {
-  padding: 102px 0 109px 0;
+  padding: 102px 0 57px 0;
 }
 .dashboard > h3 {
   font-size: 45px;

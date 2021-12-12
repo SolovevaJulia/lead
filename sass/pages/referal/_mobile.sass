@@ -28,26 +28,6 @@
     .referal
         &-main
             padding: 0 0 50px 0
-            &-left
-                width: 100%
-                & > h1
-                    color: $blue-color
-                    @include title-style
-                    margin-bottom: 18px
-                & > p
-                    color: $dark-color
-                    font-size: 22px
-                    font-weight: 400
-                    line-height: 29px
-                    text-align: left
-                    font-weight: 500
-                    &:nth-child(3)
-                        margin-bottom: 20px
-                    &:nth-child(4)
-                        margin-bottom: 20px
-                    & > span
-                        color: $blue-color
-                        font-weight: 700
 
 @media screen and  (max-width: 768px)
     .referal
@@ -61,3 +41,14 @@
                         width: 100%
                         &:nth-child(1)
                             margin-bottom: 20px
+
+@media screen and  (max-width: 576px)
+    .referal
+        &-main
+            &-left
+                & > h1
+                    font-size: 38px
+                    margin-bottom: 20px
+                & > p
+                    font-size: 18px
+                    margin-bottom: 20px
