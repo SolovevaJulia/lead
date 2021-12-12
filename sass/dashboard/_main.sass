@@ -1,0 +1,130 @@
+.dashboard
+    box-shadow: -5px 8px 7px 2px rgba(6, 8, 9, 0.11)
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%)
+    border-radius: 45px
+    padding: 66px
+    &-main
+        padding: 102px 0 109px 0
+    & > h3
+        @include title-style
+        color: $white-color
+        text-align: center
+        margin-bottom: 55px
+    & > button
+        @include button
+        border-radius: 10px
+        background-color: #f9807d
+        padding: 19px 0
+        color: $white-color
+        width: 35%
+        position: relative
+        left: 50%
+        transform: translate(-50%, 0)
+        margin-top: 45px
+        // background-color: #dc8201
+    &-row
+        width: 100%
+        background-color: $white-color
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin: 0 auto 20px auto
+        padding: 18px 0
+        border-radius: 15px
+        background-color: #ffffff
+        &-block
+            display: flex
+            align-items: center
+            & > p
+                @include small-text-style
+                color: #272727
+                font-weight: 700
+            &:nth-child(1)
+                width: 29%
+                & > p
+                    &:nth-child(1)
+                        display: flex
+                        justify-content: center
+                        color: #17bd1b
+                        font-family: Raleway
+                        font-size: 42px
+                        font-weight: 700
+                        font-style: normal
+                        letter-spacing: normal
+                        line-height: 29px
+                        text-align: left
+                        margin-right: 61px
+                        margin-left: 36px
+                    &:nth-child(2)
+                        display: flex
+                        justify-content: flex-start
+            &:nth-child(2)
+                width: 60%
+                justify-content: center
+                & > p
+                    &:nth-child(1)
+                        display: flex
+                        justify-content: center
+                        margin-right: 71px
+                    &:nth-child(2)
+                        display: flex
+                        justify-content: flex-start
+            &:nth-child(3)
+                width: 28%
+                & > p
+                    &:nth-child(1)
+                        display: flex
+                        justify-content: center
+                        margin-right: 79px
+                        color: #17bd1b
+                        font-weight: 700
+                        font-size: 18px
+                    &:nth-child(2)
+                        display: flex
+                        justify-content: flex-start
+            &__static
+                width: 75%
+                display: flex
+                justify-content: center
+                margin: 0 auto 18px auto
+                &:nth-child(1)
+                    width: 29%
+                    justify-content: start
+                    padding-left: 115px
+                    & > p
+                        @include small-text-style
+                        color: #fefefe
+                        &:nth-child(1)
+                            margin-right: 61px
+                &:nth-child(2)
+                    width: 41%
+                    & > p
+                        @include small-text-style
+                        color: #fefefe
+                        &:nth-child(1)
+                            display: flex
+                            justify-content: center
+                            margin-right: 55px
+                        &:nth-child(2)
+                            display: flex
+                            justify-content: flex-start
+                &:nth-child(3)
+                    justify-content: flex-start
+                    width: 28%
+                    padding-left: 50px
+                    & > p
+                        @include small-text-style
+                        color: #fefefe
+                        &:nth-child(1)
+                            display: flex
+                            justify-content: center
+                            margin-right: 60px
+                        &:nth-child(2)
+                            display: flex
+                            justify-content: flex-start
+        &__static
+            display: flex
+            align-items: center
+    &-wrapper
+        width: 95%
+        margin: 0 auto
