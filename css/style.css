@@ -2244,7 +2244,7 @@ ul {
 @media screen and (max-width: 992px) {
   .dashboard-lead-wrapper {
     overflow-x: scroll;
-    padding: 14px 21px;
+    padding: 25px 0 0 21px;
   }
   .dashboard-lead-wrapper::-webkit-scrollbar {
     height: 11px;
@@ -2285,7 +2285,7 @@ ul {
 @media screen and (max-width: 922px) {
   .dashboard-price-wrapper {
     overflow-x: scroll;
-    padding: 14px 21px;
+    padding: 25px 0 0 21px;
   }
   .dashboard-price-wrapper::-webkit-scrollbar {
     height: 11px;
