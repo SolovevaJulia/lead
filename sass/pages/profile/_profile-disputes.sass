@@ -1,0 +1,122 @@
+.profile-dispute-select
+    color: $blue-color
+    padding: 12px 0px
+    border: 1px solid #3e5ecd
+    background-color: #fafafc
+    @include small-text-style
+.profile-disputes-btn-more
+    margin-top: 70px
+    @include small-text-style
+    border: none
+    background-color: transparent
+    color: #3e5ecd
+.profile
+    &-disputes
+        padding: 106px 0
+        & > div
+            & > h3
+                @include title-style
+                color: $blue-color
+                margin-bottom: 71px
+    &-dispute
+        & > table
+            width: 100%
+            border-radius: 20px
+            border: 2px solid #3652c7
+            border-spacing: 0px 0px
+            border-collapse: separate
+            & > tr, th
+                border-bottom: 2px solid #3652c7
+                border-right: 2px solid #3652c7
+                padding: 23px 0
+                &:last-child
+                    border-right: none
+            & > tr, td
+                border-right: 2px solid #3652c7
+                padding: 10px 17px
+                text-align: center
+                vertical-align: text-top
+                & > a
+                    @include small-text-style
+                    line-height: 29px
+                    color: #3652c7
+                    font-weight: 600
+                & > p
+                    @include small-text-style
+                    font-weight: 600
+                    & > span
+                        font-weight: 400
+                & > span
+                    @include small-text-style
+                    font-weight: 400
+
+                &:last-child
+                    border-right: none
+            & > td
+                &:nth-child(3)
+                    padding: 20px 0
+        & > p
+            @include subtitle-style
+            color: $blue-color
+            margin-bottom: 31px
+        &-wrapper
+            margin-top: 64px
+            display: flex
+        &-left
+            width: 45%
+            margin-right: 29px
+            & > h4
+                @include subtitle-style
+                color: $blue-color
+                margin-bottom: 30px
+            & > p
+                @include small-text-style
+                margin-bottom: 34px
+                & > a
+                    @include small-text-style
+                    color: #3f5ecc
+                    font-weight: 500
+        &-right
+            width: 45%
+            & > h4
+                @include subtitle-style
+                color: $blue-color
+                margin-bottom: 30px
+            & > p
+                @include small-text-style
+                & > a
+                    @include small-text-style
+                    color: #3f5ecc
+                    font-weight: 500
+        &-form
+            & > textarea
+                width: 100%
+                min-height: 378px
+                border-radius: 20px
+                border: 2px solid #4061cd
+                padding: 36px 0 0 37px
+                opacity: 0.7
+                color: #272727
+                font-size: 22px
+                font-weight: 400
+                text-align: left
+        &-group
+            &-btn
+                margin-top: 35px
+                display: flex
+                justify-content: space-between
+                & > button
+                    padding: 20px 0
+                    border-radius: 10px
+                    border: 1px solid #f9807d
+                    @include text-style
+                    &:nth-child(1)
+                        max-width: 201px
+                        min-width: 30%
+                        color: #f9807d
+                    &:nth-child(2)
+                        max-width: 315px
+                        min-width: 40%
+                        color: white
+                        background-color: #f9807d
+                        // background-color: #dc8201

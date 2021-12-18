@@ -1535,6 +1535,208 @@ ul {
     margin-bottom: 20px;
   }
 }
+.profile-dispute-select {
+  color: #03037a;
+  padding: 12px 0px;
+  border: 1px solid #3e5ecd;
+  background-color: #fafafc;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.profile-disputes-btn-more {
+  margin-top: 70px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  border: none;
+  background-color: transparent;
+  color: #3e5ecd;
+}
+
+.profile-disputes {
+  padding: 106px 0;
+}
+.profile-disputes > div > h3 {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 71px;
+}
+.profile-dispute > table {
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #3652c7;
+  border-spacing: 0px 0px;
+  border-collapse: separate;
+}
+.profile-dispute > table > tr, .profile-dispute > table th {
+  border-bottom: 2px solid #3652c7;
+  border-right: 2px solid #3652c7;
+  padding: 23px 0;
+}
+.profile-dispute > table > tr:last-child, .profile-dispute > table th:last-child {
+  border-right: none;
+}
+.profile-dispute > table > tr, .profile-dispute > table td {
+  border-right: 2px solid #3652c7;
+  padding: 10px 17px;
+  text-align: center;
+  vertical-align: text-top;
+}
+.profile-dispute > table > tr > a, .profile-dispute > table td > a {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  line-height: 29px;
+  color: #3652c7;
+  font-weight: 600;
+}
+.profile-dispute > table > tr > p, .profile-dispute > table td > p {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  font-weight: 600;
+}
+.profile-dispute > table > tr > p > span, .profile-dispute > table td > p > span {
+  font-weight: 400;
+}
+.profile-dispute > table > tr > span, .profile-dispute > table td > span {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  font-weight: 400;
+}
+.profile-dispute > table > tr:last-child, .profile-dispute > table td:last-child {
+  border-right: none;
+}
+.profile-dispute > table > td:nth-child(3) {
+  padding: 20px 0;
+}
+.profile-dispute > p {
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 31px;
+}
+.profile-dispute-wrapper {
+  margin-top: 64px;
+  display: flex;
+}
+.profile-dispute-left {
+  width: 45%;
+  margin-right: 29px;
+}
+.profile-dispute-left > h4 {
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 30px;
+}
+.profile-dispute-left > p {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  margin-bottom: 34px;
+}
+.profile-dispute-left > p > a {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #3f5ecc;
+  font-weight: 500;
+}
+.profile-dispute-right {
+  width: 45%;
+}
+.profile-dispute-right > h4 {
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 30px;
+}
+.profile-dispute-right > p {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+.profile-dispute-right > p > a {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #3f5ecc;
+  font-weight: 500;
+}
+.profile-dispute-form > textarea {
+  width: 100%;
+  min-height: 378px;
+  border-radius: 20px;
+  border: 2px solid #4061cd;
+  padding: 36px 0 0 37px;
+  opacity: 0.7;
+  color: #272727;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+.profile-dispute-group-btn {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-dispute-group-btn > button {
+  padding: 20px 0;
+  border-radius: 10px;
+  border: 1px solid #f9807d;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+.profile-dispute-group-btn > button:nth-child(1) {
+  max-width: 201px;
+  min-width: 30%;
+  color: #f9807d;
+}
+.profile-dispute-group-btn > button:nth-child(2) {
+  max-width: 315px;
+  min-width: 40%;
+  color: white;
+  background-color: #f9807d;
+}
+
 .form {
   border-radius: 20px;
   background-image: linear-gradient(to top, #344ec6 0%, #4364cf 100%);
