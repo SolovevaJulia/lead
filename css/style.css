@@ -1535,6 +1535,321 @@ ul {
     margin-bottom: 20px;
   }
 }
+.name {
+  padding: 104px 0 67px 0;
+}
+.name-wrapper {
+  align-items: baseline;
+}
+.name-title {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 40px;
+}
+.name-details-item {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #0c0c0c;
+}
+.name-details-item:nth-child(1) {
+  margin-right: 44px;
+}
+.name-tags {
+  align-items: baseline;
+}
+.name-tags-title {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #0c0c0c;
+  margin-right: 35px;
+}
+.name-tags-item {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #fefefe;
+  padding: 4px 18px;
+  border-radius: 5px;
+  background-color: #3c5bcb;
+  margin-right: 16px;
+}
+.name-tags-button {
+  border-radius: 5px;
+  background-color: #3c5bcb;
+  padding: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+.formgroup {
+  padding: 64px 0;
+}
+.formgroup-form {
+  padding: 47px 41px;
+  width: 32%;
+  box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16);
+  border-radius: 20px;
+  background-color: #fafafc;
+}
+.formgroup-form-title {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 33px;
+  text-align: center;
+}
+.formgroup-form-input {
+  color: #272727;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  padding: 21px 0 21px 25px;
+  border-radius: 10px;
+  border: 1px solid #4264cf;
+  margin-bottom: 15px;
+}
+.formgroup-form-button {
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  border-radius: 10px;
+  color: #f9807d;
+  border-radius: 10px;
+  border: 1px solid #f9807d;
+  padding: 19px;
+  background-color: transparent;
+  margin-top: 15px;
+}
+.formgroup-connection {
+  padding: 45px 64px 54px 64px;
+  align-items: center;
+  box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16);
+  border-radius: 20px;
+  background-color: #fafafc;
+  width: 32%;
+}
+.formgroup-connection-title {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+  margin-bottom: 52px;
+  text-align: center;
+}
+.formgroup-connection-img {
+  margin-bottom: 53px;
+}
+.formgroup-connection-text {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #0c0c0c;
+}
+.formgroup-connection-link {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #3652c7;
+}
+.formgroup-download {
+  box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16);
+  border-radius: 20px;
+  background-color: #fafafc;
+  padding: 26px 22px;
+  width: 32%;
+}
+.formgroup-download-wrapper {
+  border-radius: 10px;
+  border: 3px dashed #3652c7;
+  opacity: 0.6;
+  padding: 45px 67px;
+  align-items: center;
+}
+.formgroup-download-img {
+  margin-bottom: 34px;
+}
+.formgroup-download-text {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: #0c0c0c;
+}
+.formgroup-download-button {
+  border-radius: 10px;
+  border: 1px solid #3652c7;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #3652c7;
+  padding: 15px 71px;
+  margin-bottom: 52px;
+  background-color: transparent;
+}
+.formgroup-download-link {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #3652c7;
+}
+
+.sells {
+  padding: 65px 0 105px 0;
+}
+.sells-title {
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 38px;
+  color: #03037a;
+}
+.sells-total {
+  align-items: baseline;
+  justify-content: flex-end;
+  margin-top: 34px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  color: #0c0c0c;
+  font-weight: 700;
+}
+.sells-total-text {
+  margin-right: 11px;
+}
+.sells-total-button {
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  border-radius: 10px;
+  padding: 18px 55px;
+  color: #f9807d;
+  border-radius: 10px;
+  border: 1px solid #f9807d;
+  background-color: transparent;
+  margin-left: 34px;
+}
+.sells-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .name-wrapper {
+    flex-direction: column;
+  }
+  .name-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .name-details {
+    margin-bottom: 20px;
+  }
+  .name-tags {
+    flex-direction: column;
+  }
+  .name-tags-title {
+    margin-bottom: 15px;
+  }
+
+  .formgroup-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .formgroup-form {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .formgroup-connection {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .formgroup-download {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .name-details {
+    flex-direction: column;
+  }
+  .name-tags-wrapper {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .formgroup-form {
+    width: 100%;
+    padding: 25px;
+  }
+  .formgroup-form-input {
+    padding: 10px 0 10px 25px;
+  }
+  .formgroup-connection {
+    width: 100%;
+    padding: 25px;
+  }
+  .formgroup-download {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .sells-title {
+    font-size: 22px;
+  }
+  .sells-total {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sells-total-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .sells-total-button {
+    margin-left: 0;
+  }
+}
 .form {
   border-radius: 20px;
   background-image: linear-gradient(to top, #344ec6 0%, #4364cf 100%);

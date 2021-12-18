@@ -1,0 +1,135 @@
+.name
+    padding: 104px 0 67px 0
+    &-wrapper
+        align-items: baseline
+    &-title
+        @include title-style
+        color: $blue-color
+        margin-bottom: 40px
+    &-details
+        &-item
+            @include text-style
+            color: $dark-color
+            &:nth-child(1)
+                margin-right: 44px
+    &-tags
+        align-items: baseline
+        &-title
+            @include text-style
+            color: $dark-color
+            margin-right: 35px
+        &-item
+            @include menu-text-style
+            color: #fefefe
+            padding: 4px 18px
+            border-radius: 5px
+            background-color: #3c5bcb
+            margin-right: 16px
+        &-button
+            border-radius: 5px
+            background-color: #3c5bcb
+            padding: 5px
+            width: 24px
+            height: 24px
+.formgroup
+    padding: 64px 0
+    &-form
+        padding: 47px 41px
+        width: 32%
+        box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16)
+        border-radius: 20px
+        background-color: $light-color
+        &-title
+            @include card-title
+            margin-bottom: 33px
+            text-align: center
+        &-input
+            @include input
+            padding: 21px 0 21px 25px
+            border-radius: 10px
+            border: 1px solid #4264cf
+            margin-bottom: 15px
+        &-button
+            @include button
+            color: $pink-color
+            border-radius: 10px
+            border: 1px solid $pink-color
+            padding: 19px
+            background-color: transparent
+            margin-top: 15px
+    &-connection
+        padding: 45px 64px 54px 64px
+        align-items: center
+        box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16)
+        border-radius: 20px
+        background-color: #fafafc
+        width: 32%
+        &-title
+            @include card-title
+            margin-bottom: 52px
+            text-align: center
+        &-img
+            margin-bottom: 53px
+        &-text
+            @include small-text-style
+            margin-bottom: 32px
+            text-align: center
+            color: $dark-color
+        &-link
+            @include small-text-style
+            color: #3652c7
+    &-download
+        box-shadow: -3px 4px 9px rgba(6, 8, 9, 0.16)
+        border-radius: 20px
+        background-color: #fafafc
+        padding: 26px 22px
+        width: 32%
+        &-wrapper
+            border-radius: 10px
+            border: 3px dashed #3652c7
+            opacity: 0.6
+            padding: 45px 67px
+            align-items: center
+        &-img
+            margin-bottom: 34px
+        &-text
+            @include small-text-style
+            margin-bottom: 35px
+            text-align: center
+            color: $dark-color
+        &-button
+            border-radius: 10px
+            border: 1px solid #3652c7
+            @include text-style
+            color: #3652c7
+            padding: 15px 71px
+            margin-bottom: 52px
+            background-color: transparent
+        &-link
+            @include small-text-style
+            color: #3652c7
+.sells
+    padding: 65px 0 105px 0
+    &-title
+        @include subtitle-style
+        margin-bottom: 38px
+        color: $blue-color
+    &-total
+        align-items: baseline
+        justify-content: flex-end
+        margin-top: 34px
+        @include small-text-style
+        color: $dark-color
+        font-weight: 700
+        &-text
+            margin-right: 11px
+        &-button
+            @include button
+            padding: 18px 55px
+            color: $pink-color
+            border-radius: 10px
+            border: 1px solid $pink-color
+            background-color: transparent
+            margin-left: 34px
+    &-img
+        width: 100%
