@@ -1,43 +1,73 @@
-.main-dashboard
+.dashboard-main
+    margin-top: 102px
+    margin-bottom: 45px
+.dashboard-main-wrapper
     box-shadow: -5px 8px 7px 2px rgba(6, 8, 9, 0.11)
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%)
     border-radius: 45px
     padding: 66px
-    & > table
+    & > h3
+        text-align: center
+        color: white
+        padding-bottom: 55px
+        @include title-style
+    & > button
+        border-radius: 10px
+        background-color: #f9807d
+        // background-color: #dc8201
+        @include button
+        color: $white-color
+        padding: 19px 0
+        width: 50%
+        position: relative
+        left: 50%
+        transform: translate( -50%, 0)
+        cursor: pointer
+        margin-top: 40px
+    & > div > table
         width: 100%
         border-spacing: 0 20px
         border-collapse: separate
         border: 0
-    & > table thead tr th
+    & > div > table thead tr th
         background: transparent
         color: #fefefe
         font-size: 18px
         font-weight: 400
-    & > table thead tr th:nth-child(2)
         text-align: left
-    & > table tbody tr td
+    & > div > table tbody tr td
         &:first-child
             border-radius: 15px 0 0 15px
         &:last-child
             border-radius: 0 15px 15px 0
-    & > table tbody td
-        padding: 25px 35px
+    & > div > table tbody td
+        padding: 25px 35px 25px 0
         color: #272727
         font-family: Raleway
         font-size: 18px
         font-weight: 400
-        text-align: center
+        text-align: left
         background: #ffffff
         border: 0
-    & > table tbody tr
+    & > div > table tbody tr
         background: #ffffff
-    & > table tbody tr td:nth-child(2)
-        text-align: left
-        padding: 25px 0
-    & > table tbody tr td:nth-child(5)
-        color: #bd1727
-    & > table tbody tr td button
+        vertical-align: middle
+    & > div > table tbody tr td:nth-child(1)
+        color: #17bd1b
+        font-size: 42px
+        font-weight: 700
+        padding: 18px 0 18px 36px
+    & > div > table tbody tr td:nth-child(2)
+        padding-right: 100px
+    & > div > table tbody tr td:nth-child(5)
+        font-weight: 700
+        color: #17bd1b
+    & > div > table tbody tr td button
         @include button
         color: $pink-color
         background-color: transparent
         font-weight: 400
+@media screen and (max-width: 768px)
+    .dashboard-main-wrapper
+        & > button
+            width: 100%
