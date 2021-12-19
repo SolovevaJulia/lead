@@ -1535,6 +1535,11 @@ ul {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 992px) {
+  .profile-dispute-wrapper {
+    justify-content: space-between;
+  }
+}
 .profile-dispute-select {
   color: #03037a;
   padding: 12px 0px;
@@ -1719,7 +1724,7 @@ ul {
   justify-content: space-between;
 }
 .profile-dispute-group-btn > button {
-  padding: 20px 0;
+  padding: 20px 10px;
   border-radius: 10px;
   border: 1px solid #f9807d;
   font-size: 22px;
