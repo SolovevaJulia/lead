@@ -1621,7 +1621,11 @@ ul {
 .profile-dispute > div > tr > p > span, .profile-dispute > div td > p > span {
   font-weight: 400;
 }
+<<<<<<< HEAD
+.profile-dispute > table > tr > span, .profile-dispute > table td > span {
+=======
 .profile-dispute > div > tr > span, .profile-dispute > div td > span {
+>>>>>>> efb9a69c92be79fdd38d0546db83214512f1a3ca
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -1745,6 +1749,86 @@ ul {
   background-color: #f9807d;
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 992px) {
+  .name-wrapper {
+    flex-direction: column;
+  }
+  .name-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .name-details {
+    margin-bottom: 20px;
+  }
+  .name-tags {
+    flex-direction: column;
+  }
+  .name-tags-title {
+    margin-bottom: 15px;
+  }
+
+  .formgroup-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .formgroup-form {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .formgroup-connection {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .formgroup-download {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .name-details {
+    flex-direction: column;
+  }
+  .name-tags-wrapper {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .formgroup-form {
+    width: 100%;
+    padding: 25px;
+  }
+  .formgroup-form-input {
+    padding: 10px 0 10px 25px;
+  }
+  .formgroup-connection {
+    width: 100%;
+    padding: 25px;
+  }
+  .formgroup-download {
+    width: 100%;
+    padding: 25px;
+  }
+  .formgroup-download-wrapper {
+    padding: 45px 12px;
+  }
+
+  .sells-title {
+    font-size: 22px;
+  }
+  .sells-total {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sells-total-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .sells-total-button {
+    margin-left: 0;
+  }
+}
+=======
+>>>>>>> efb9a69c92be79fdd38d0546db83214512f1a3ca
 .form {
   border-radius: 20px;
   background-image: linear-gradient(to top, #344ec6 0%, #4364cf 100%);
