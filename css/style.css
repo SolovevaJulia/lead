@@ -1740,6 +1740,25 @@ ul {
   background-color: #f9807d;
 }
 
+.name-details-item:nth-child(2) {
+  margin-right: 30px;
+}
+.name-title-dashboard {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #03037a;
+}
+.name-details-stars {
+  margin-top: 5px;
+}
+.name-details-stars > img {
+  width: 16px;
+  height: 16px;
+}
+
 .name {
   padding: 104px 0 67px 0;
 }
