@@ -1571,28 +1571,31 @@ ul {
   color: #03037a;
   margin-bottom: 71px;
 }
-.profile-dispute > table {
+.profile-dispute > div {
+  overflow-x: scroll;
+}
+.profile-dispute > div > table {
   width: 100%;
   border-radius: 20px;
   border: 2px solid #3652c7;
   border-spacing: 0px 0px;
   border-collapse: separate;
 }
-.profile-dispute > table > tr, .profile-dispute > table th {
+.profile-dispute > div > tr, .profile-dispute > div th {
   border-bottom: 2px solid #3652c7;
   border-right: 2px solid #3652c7;
   padding: 23px 0;
 }
-.profile-dispute > table > tr:last-child, .profile-dispute > table th:last-child {
+.profile-dispute > div > tr:last-child, .profile-dispute > div th:last-child {
   border-right: none;
 }
-.profile-dispute > table > tr, .profile-dispute > table td {
+.profile-dispute > div > tr, .profile-dispute > div td {
   border-right: 2px solid #3652c7;
   padding: 10px 17px;
   text-align: center;
   vertical-align: text-top;
 }
-.profile-dispute > table > tr > a, .profile-dispute > table td > a {
+.profile-dispute > div > tr > a, .profile-dispute > div td > a {
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -1602,7 +1605,7 @@ ul {
   color: #3652c7;
   font-weight: 600;
 }
-.profile-dispute > table > tr > p, .profile-dispute > table td > p {
+.profile-dispute > div > tr > p, .profile-dispute > div td > p {
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -1610,10 +1613,14 @@ ul {
   line-height: 29px;
   font-weight: 600;
 }
-.profile-dispute > table > tr > p > span, .profile-dispute > table td > p > span {
+.profile-dispute > div > tr > p > span, .profile-dispute > div td > p > span {
   font-weight: 400;
 }
+<<<<<<< HEAD
 .profile-dispute > table > tr > span, .profile-dispute > table td > span {
+=======
+.profile-dispute > div > tr > span, .profile-dispute > div td > span {
+>>>>>>> efb9a69c92be79fdd38d0546db83214512f1a3ca
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -1621,10 +1628,10 @@ ul {
   line-height: 29px;
   font-weight: 400;
 }
-.profile-dispute > table > tr:last-child, .profile-dispute > table td:last-child {
+.profile-dispute > div > tr:last-child, .profile-dispute > div td:last-child {
   border-right: none;
 }
-.profile-dispute > table > td:nth-child(3) {
+.profile-dispute > div > td:nth-child(3) {
   padding: 20px 0;
 }
 .profile-dispute > p {
@@ -1737,6 +1744,7 @@ ul {
   background-color: #f9807d;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 992px) {
   .name-wrapper {
     flex-direction: column;
@@ -1814,6 +1822,8 @@ ul {
     margin-left: 0;
   }
 }
+=======
+>>>>>>> efb9a69c92be79fdd38d0546db83214512f1a3ca
 .form {
   border-radius: 20px;
   background-image: linear-gradient(to top, #344ec6 0%, #4364cf 100%);
