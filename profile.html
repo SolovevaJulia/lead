@@ -1,116 +1,327 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Офферы</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Офферы</title>
-</head>
-
-<body>
-<!--  ХИДЕР -->
-<section class="header-sections">
-    <div class="container">
-        <div class="header-sections-menu-wrapper d-flex space-between center">
-            <div class="header-menu-mobile-button">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="header-menu-logo">
-                <a href="index.html"><img src="img/main/header/logo.png" alt="Логотип сайта"></a>
-            </div>
-            <div class="header-menu-list">
-                <div class="header-menu-list-items d-flex space-between center">
-                    <a class="header-menu-list-item" href="conditions.html">Условия</a>
-                    <a class="header-menu-list-item" href="offers.html">Офферы</a>
-                    <a class="header-menu-list-item" href="price.html">Прайс-лист</a>
-                    <a class="header-menu-list-item" href="about.html">О компании</a>
-                    <a class="header-menu-list-item" href="usage.html">Как пользоваться</a>
-                    <a class="header-menu-list-item" href="referal.html">Рефералка</a>
-                    <a class="header-menu-list-item" href="contacts.html">Контакты</a>
-                    <div>
-                        <li class="header-menu-list-item header-menu-list-item__more">Еще</li>
-                        <div class="header-menu-list-mobile">
-                            <a href="price.html" class="header-menu-list-item">Прайс-лист</a>
-                            <a href="about.html" class="header-menu-list-item">О компании</a>
-                            <a href="usage.html" class="header-menu-list-item">Как пользоваться</a>
-                            <a href="referal.html" class="header-menu-list-item">Рефералка</a>
-                            <a href="contacts.html" class="header-menu-list-item">Контакты</a>
+    <body>
+        <!--  ХИДЕР -->
+        <section class="header-sections">
+            <div class="container">
+                <div
+                    class="
+                        header-sections-menu-wrapper
+                        d-flex
+                        space-between
+                        center
+                    "
+                >
+                    <div class="header-menu-mobile-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="header-menu-logo">
+                        <a href="index.html"
+                            ><img
+                                src="img/main/header/logo.png"
+                                alt="Логотип сайта"
+                        /></a>
+                    </div>
+                    <div class="header-menu-list">
+                        <div
+                            class="
+                                header-menu-list-items
+                                d-flex
+                                space-between
+                                center
+                            "
+                        >
+                            <a
+                                class="header-menu-list-item"
+                                href="conditions.html"
+                                >Условия</a
+                            >
+                            <a class="header-menu-list-item" href="offers.html"
+                                >Офферы</a
+                            >
+                            <a class="header-menu-list-item" href="price.html"
+                                >Прайс-лист</a
+                            >
+                            <a class="header-menu-list-item" href="about.html"
+                                >О компании</a
+                            >
+                            <a class="header-menu-list-item" href="usage.html"
+                                >Как пользоваться</a
+                            >
+                            <a class="header-menu-list-item" href="referal.html"
+                                >Рефералка</a
+                            >
+                            <a
+                                class="header-menu-list-item"
+                                href="contacts.html"
+                                >Контакты</a
+                            >
+                            <div>
+                                <li
+                                    class="
+                                        header-menu-list-item
+                                        header-menu-list-item__more
+                                    "
+                                >
+                                    Еще
+                                </li>
+                                <div class="header-menu-list-mobile">
+                                    <a
+                                        href="price.html"
+                                        class="header-menu-list-item"
+                                        >Прайс-лист</a
+                                    >
+                                    <a
+                                        href="about.html"
+                                        class="header-menu-list-item"
+                                        >О компании</a
+                                    >
+                                    <a
+                                        href="usage.html"
+                                        class="header-menu-list-item"
+                                        >Как пользоваться</a
+                                    >
+                                    <a
+                                        href="referal.html"
+                                        class="header-menu-list-item"
+                                        >Рефералка</a
+                                    >
+                                    <a
+                                        href="contacts.html"
+                                        class="header-menu-list-item"
+                                        >Контакты</a
+                                    >
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="header-menu-enter d-flex center">
+                        <span class="header-sections-menu-enter-text"
+                            >Вход</span
+                        >
+                        <img
+                            src="img/main/header/user.png"
+                            alt="Пользователь"
+                            class="header-menu-wrapper-enter-user"
+                        />
+                    </div>
                 </div>
-
             </div>
-            <div class="header-menu-enter d-flex center">
-                <span class="header-sections-menu-enter-text">Вход</span>
-                <img src="img/main/header/user.png" alt="Пользователь" class="header-menu-wrapper-enter-user">
+        </section>
+        <!-- ХИДЕР -->
+        <section class="name">
+            <div class="container">
+                <div class="name-wrapper d-flex space-between">
+                    <h1 class="name-title">Вячеслав Окилов</h1>
+                    <div class="name-details d-flex space-between">
+                        <p class="name-details-item">Лидов продано: 345</p>
+                        <p class="name-details-item">Выручка: 34567 руб.</p>
+                    </div>
+                </div>
+                <div class="name-tags d-flex">
+                    <p class="name-tags-title">Выбранные тематики лидов:</p>
+                    <div class="name-tags-wrapper d-flex">
+                        
+                        <span class="name-tags-item">техника</span>
+                        <span class="name-tags-item">медицина</span>
+                        <span class="name-tags-item">автомобили</span>
+                        <button class="name-tags-button">
+                            <img src="img/profile/plus.png" alt="" class="name-tags-button-img" />
+                        </button>
+                    </div>
+                    
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- ХИДЕР -->
-<section class="profile">
-    <div class="container">
-        TODO PROFILE
-    </div>
-</section>
-<!-- ФУТЕР -->
-<section class="footer">
-    <div class="container">
-        <div class="footer-menu-wrapper d-flex space-between center">
-            <div class="footer-menu-logo">
-                <img src="img/main/header/logo.png" alt="Логотип сайта">
+        </section>
+        <section class="formgroup">
+            <div class="container">
+                <div class="formgroup-wrapper d-flex space-between">
+                    <form class="formgroup-form d-flex column">
+                        <h5 class="formgroup-form-title">
+                            Быстрая продажа лида
+                        </h5>
+                        <input
+                            placeholder="ФИО лида"
+                            type="text"
+                            class="formgroup-form-input"
+                        />
+                        <input
+                            placeholder="Телефон лида"
+                            type="text"
+                            class="formgroup-form-input"
+                        />
+                        <input
+                            placeholder="Тематика"
+                            type="text"
+                            class="formgroup-form-input"
+                        />
+                        <button class="formgroup-form-button">
+                            Продать лид
+                        </button>
+                    </form>
+                    <form class="formgroup-connection d-flex column">
+                        <h5 class="formgroup-connection-title">
+                            Подключение по API
+                        </h5>
+                        <img
+                            src="img/profile/icons8-form-64.png"
+                            alt=""
+                            class="formgroup-connection-img"
+                        />
+                        <p class="formgroup-connection-text">
+                            Подключите form-action на любую форму своего сайта и
+                            передавайте заявки к нам.
+                        </p>
+                        <a href="" class="formgroup-connection-link"
+                            >https://panel.garantsc.ru/</a
+                        >
+                    </form>
+                    <form class="formgroup-download">
+                        <div class="formgroup-download-wrapper d-flex column">
+                            <img
+                                src="img/profile/icons8-upload-to-cloud-100.png"
+                                alt=""
+                                class="formgroup-download-img"
+                            />
+                            <p class="formgroup-download-text">
+                                Перетащите csv файл или загрузите его по клику
+                            </p>
+                            <button class="formgroup-download-button">
+                                Загрузить
+                            </button>
+                            <a href="" class="formgroup-download-link"
+                                >Формат файла</a
+                            >
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="footer-menu-list">
-                <nav class="footer-menu-list-items d-flex">
-                    <a href="index.html" class="footer-menu-list-item">Главная</a>
-                    <a href="conditions.html" class="footer-menu-list-item">Условия</a>
-                    <a href="offers.html" class="footer-menu-list-item">Офферы</a>
-                    <a href="price.html" class="footer-menu-list-item">Прайс-лист</a>
-                    <a href="about.html" class="footer-menu-list-item">О компании</a>
-                    <a href="usage.html" class="footer-menu-list-item">Как пользоваться</a>
-                    <a href="referal.html" class="footer-menu-list-item">Рефералка</a>
-                    <a href="contacts.html" class="footer-menu-list-item">Контакты</a>
-                </nav>
+        </section>
+        <section class="sells">
+            <div class="container">
+                <div class="sells-wrapper">
+                    <h2 class="sells-title">Продажи за неделю</h2>
+                    <img
+                        src="img/profile/grafic.png"
+                        alt=""
+                        class="sells-img"
+                    />
+                    <div class="sells-total d-flex">
+                        <div class="sells-total-wrapper">
+                            <p class="sells-total-text">Прибыль:</p>
+                            <p class="sells-total-sum">38667 руб.</p>
+                        </div>
+                        <button class="sells-total-button">Кошелек</button>
+                    </div>
+                </div>
             </div>
-            <div class="footer-menu-wrapper-auf">
-                <span class="footer-menu-wrapper-auf">Вход</span>
-                <span class="footer-menu-wrapper-auf">Регистрация</span>
+        </section>
+        <!-- ФУТЕР -->
+        <section class="footer">
+            <div class="container">
+                <div class="footer-menu-wrapper d-flex space-between center">
+                    <div class="footer-menu-logo">
+                        <img
+                            src="img/main/header/logo.png"
+                            alt="Логотип сайта"
+                        />
+                    </div>
+                    <div class="footer-menu-list">
+                        <nav class="footer-menu-list-items d-flex">
+                            <a href="index.html" class="footer-menu-list-item"
+                                >Главная</a
+                            >
+                            <a
+                                href="conditions.html"
+                                class="footer-menu-list-item"
+                                >Условия</a
+                            >
+                            <a href="offers.html" class="footer-menu-list-item"
+                                >Офферы</a
+                            >
+                            <a href="price.html" class="footer-menu-list-item"
+                                >Прайс-лист</a
+                            >
+                            <a href="about.html" class="footer-menu-list-item"
+                                >О компании</a
+                            >
+                            <a href="usage.html" class="footer-menu-list-item"
+                                >Как пользоваться</a
+                            >
+                            <a href="referal.html" class="footer-menu-list-item"
+                                >Рефералка</a
+                            >
+                            <a
+                                href="contacts.html"
+                                class="footer-menu-list-item"
+                                >Контакты</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="footer-menu-wrapper-auf">
+                        <span class="footer-menu-wrapper-auf">Вход</span>
+                        <span class="footer-menu-wrapper-auf">Регистрация</span>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <span class="footer-info-text"
+                        >ООО “ЛидБезОбид” ИНН: 8384863846 ОГРН:
+                        099209590239</span
+                    >
+                </div>
             </div>
-        </div>
-        <div class="footer-info">
-            <span class="footer-info-text">ООО “ЛидБезОбид” ИНН: 8384863846 ОГРН: 099209590239</span>
-        </div>
-    </div>
-</section>
-<!-- ФУТЕР -->
-<!-- Модальное окно меню -->
-<section class="modal-menu">
-    <div class="modal-menu-wrapper">
-        <div class="modal-menu-list">
-            <div class="modal-menu-list-items">
-                <a href="index.html" class="modal-menu-list-item">Главная</a>
-                <a href="conditions.html" class="modal-menu-list-item">Условия</a>
-                <a href="offers.html" class="modal-menu-list-item">Офферы</a>
-                <a href="price.html" class="modal-menu-list-item">Прайс-лист</a>
-                <a href="about.html" class="modal-menu-list-item">О компании</a>
-                <a href="usage.html" class="modal-menu-list-item">Как пользоваться</a>
-                <a href="referal.html" class="modal-menu-list-item">Рефералка</a>
-                <a href="contacts.html" class="modal-menu-list-item">Контакты</a>
+        </section>
+        <!-- ФУТЕР -->
+        <!-- Модальное окно меню -->
+        <section class="modal-menu">
+            <div class="modal-menu-wrapper">
+                <div class="modal-menu-list">
+                    <div class="modal-menu-list-items">
+                        <a href="index.html" class="modal-menu-list-item"
+                            >Главная</a
+                        >
+                        <a href="conditions.html" class="modal-menu-list-item"
+                            >Условия</a
+                        >
+                        <a href="offers.html" class="modal-menu-list-item"
+                            >Офферы</a
+                        >
+                        <a href="price.html" class="modal-menu-list-item"
+                            >Прайс-лист</a
+                        >
+                        <a href="about.html" class="modal-menu-list-item"
+                            >О компании</a
+                        >
+                        <a href="usage.html" class="modal-menu-list-item"
+                            >Как пользоваться</a
+                        >
+                        <a href="referal.html" class="modal-menu-list-item"
+                            >Рефералка</a
+                        >
+                        <a href="contacts.html" class="modal-menu-list-item"
+                            >Контакты</a
+                        >
+                    </div>
+                </div>
             </div>
-            </ul>
-        </div>
-    </div>
-</section>
-<!-- Модальное окно меню -->
-<script src="js/index.js"></script>
-</body>
-
+        </section>
+        <!-- Модальное окно меню -->
+        <script src="js/index.js"></script>
+    </body>
 </html>
