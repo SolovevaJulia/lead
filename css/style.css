@@ -136,6 +136,11 @@ ul {
   letter-spacing: normal;
   line-height: 29px;
   margin-right: 25px;
+  cursor: pointer;
+}
+.header-menu-enter-text:hover {
+  font-weight: 500;
+  color: #ffffff;
 }
 .header-wrapper-subtitle {
   font-size: 30px;
@@ -433,6 +438,11 @@ ul {
   color: #fafafc;
   margin-left: 10px;
 }
+.footer-menu-wrapper-auf:hover {
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
 .footer-menu-list-items {
   flex-wrap: wrap;
   gap: 10px;
@@ -446,6 +456,11 @@ ul {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+  text-decoration: none;
+}
+.footer-menu-list-item:hover {
+  font-weight: 500;
+  color: #ffffff;
 }
 .footer-menu-list-item:last-child {
   margin-right: 0;
@@ -856,6 +871,11 @@ ul {
   letter-spacing: normal;
   line-height: 29px;
   margin-right: 11px;
+  cursor: pointer;
+}
+.header-sections-menu-enter-text:hover {
+  font-weight: 500;
+  color: #ffffff;
 }
 
 .breadcrumbs {
