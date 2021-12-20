@@ -844,7 +844,7 @@ ul {
   background-image: url(../img/header-sections.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px 0;
+  padding: 15px 0;
   position: relative;
   z-index: 99;
 }
@@ -855,7 +855,7 @@ ul {
   font-style: normal;
   letter-spacing: normal;
   line-height: 29px;
-  margin-right: 25px;
+  margin-right: 11px;
 }
 
 .breadcrumbs {
@@ -1671,15 +1671,17 @@ ul {
     display: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .price-wrapper {
+    margin-bottom: 0;
+  }
+}
 @media screen and (max-width: 576px) {
   .price {
     padding: 0 0 20px 0;
   }
   .price-title {
     font-size: 38px;
-  }
-  .price-wrapper {
-    margin-bottom: 0;
   }
   .price-wrapper-left-text {
     font-size: 18px;
@@ -1994,7 +1996,7 @@ ul {
   text-align: center;
   border-radius: 10px;
   color: #f9807d;
-  background-color: transparent;
+  background: transparent;
   font-weight: 400;
 }
 
@@ -2054,6 +2056,9 @@ ul {
 }
 .profile-dashboard-bottom-wrapper > table tbody tr td:nth-child(5) {
   color: #bd1727;
+}
+.profile-dashboard-bottom-wrapper > table tbody tr td button {
+  background: transparent;
 }
 
 .profile-dispute-select {
@@ -2410,7 +2415,7 @@ ul {
   color: #bd1727;
 }
 .profile-dashboard-request-wrapper > table tbody tr td button {
-  background-color: transparent;
+  background: transparent;
 }
 
 .profile-dashboard-bought-lead > h3 {
@@ -2545,6 +2550,10 @@ ul {
     margin-bottom: 10px;
   }
 
+  .formgroup-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .formgroup-form {
     width: 100%;
   }
@@ -2777,6 +2786,9 @@ ul {
 @media screen and (max-width: 768px) {
   .dashboard-main-wrapper > button {
     width: 100%;
+  }
+  .dashboard-main-wrapper > h3 {
+    font-size: 30px;
   }
 }
 .form {
