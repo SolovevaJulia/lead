@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px)
+    .dashboard-main
+        display: none
+    .dashboard-mobile
+        display: block
+        &-wrapper
+            background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%)
+            border-radius: 20px
+            padding: 45px 0
+            & > h3
+                text-align: center
+                color: white
+                @include title-style
+                font-size: 26px
+                margin-bottom: 20px
+            & > button
+                border-radius: 10px
+                background-color: #f9807d
+                @include button
+                color: $white-color
+                padding: 19px 0
+                width: 90%
+                position: relative
+                left: 50%
+                transform: translate( -50%, 0)
+                cursor: pointer
+                margin-top: 40px
+        &-list
+            display: flex
+            flex-direction: column
+            align-items: center
+        &-card
+            border-radius: 15px
+            background-color: #ffffff
+            padding: 25px
+            width: 90%
+            margin-bottom: 14px
+            &-title
+                margin-bottom: 20px
+                &-num
+                    color: #17bd1b
+                    font-family: Raleway
+                    font-size: 42px
+                    font-weight: 700
+                    margin-right: 15px
+                &-text
+                    color: #272727
+                    font-family: Raleway
+                    font-size: 16px
+                    font-weight: 400
+            &-body
+                align-items: baseline
+                color: #141313
+                font-family: Raleway
+                font-size: 16px
+                font-weight: 400
+                justify-content: space-between
+                margin-bottom: 14px
+                &:last-child
+                    margin-bottom: 0
+                &-line
+                    background-color: #3856c8
+                    opacity: 0.2
+                    width: 30%
+                    height: 1px

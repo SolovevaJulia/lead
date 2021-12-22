@@ -2700,6 +2700,10 @@ ul {
     margin-left: 0;
   }
 }
+.dashboard-mobile {
+  display: none;
+}
+
 .dashboard-main {
   margin-top: 102px;
   margin-bottom: 45px;
@@ -2805,6 +2809,96 @@ ul {
   }
   .dashboard-main-wrapper > h3 {
     font-size: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .dashboard-main {
+    display: none;
+  }
+
+  .dashboard-mobile {
+    display: block;
+  }
+  .dashboard-mobile-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .dashboard-mobile-wrapper > h3 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .dashboard-mobile-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .dashboard-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dashboard-mobile-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .dashboard-mobile-card-title {
+    margin-bottom: 20px;
+  }
+  .dashboard-mobile-card-title-num {
+    color: #17bd1b;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  .dashboard-mobile-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .dashboard-mobile-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .dashboard-mobile-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .dashboard-mobile-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
   }
 }
 .form {
