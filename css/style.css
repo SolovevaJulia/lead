@@ -1448,6 +1448,10 @@ ul {
   font-weight: 400;
 }
 
+.conditions-dashboard-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .conditions-wrapper-right {
     display: none;
@@ -1483,6 +1487,110 @@ ul {
   }
   .conditions-buttons-sell {
     width: 100%;
+  }
+  .conditions-dashboard {
+    display: none;
+  }
+  .conditions-dashboard-mobile {
+    display: block;
+    margin-top: 30px;
+  }
+  .conditions-dashboard-mobile-title {
+    text-align: center;
+    color: #03037a;
+    padding-bottom: 55px;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .conditions-dashboard-mobile-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .conditions-dashboard-mobile-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .conditions-dashboard-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conditions-dashboard-mobile-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .conditions-dashboard-mobile-card-title {
+    margin-bottom: 20px;
+  }
+  .conditions-dashboard-mobile-card-title-num {
+    font-family: "Montserrat", sans-serif;
+    color: #17bd1b;
+    font-size: 42px;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  .conditions-dashboard-mobile-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .conditions-dashboard-mobile-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .conditions-dashboard-mobile-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .conditions-dashboard-mobile-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
+  }
+  .conditions-dashboard-mobile-card-body-num {
+    font-family: "Montserrat", sans-serif;
+  }
+  .conditions-dashboard-mobile-card-button {
+    color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 23px;
   }
 }
 .usage-title {
@@ -1679,6 +1787,10 @@ ul {
   font-weight: 400;
 }
 
+.price-dashboard-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .price-wrapper-left {
     width: 100%;
@@ -1702,6 +1814,96 @@ ul {
   .price-wrapper-left-text {
     font-size: 18px;
     margin-bottom: 20px;
+  }
+
+  .price-dashboard {
+    display: none;
+  }
+  .price-dashboard-mobile {
+    display: block;
+  }
+  .price-dashboard-mobile-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .price-dashboard-mobile-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .price-dashboard-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .price-dashboard-mobile-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .price-dashboard-mobile-card:last-child {
+    margin-right: 0;
+  }
+  .price-dashboard-mobile-card-title {
+    margin-bottom: 20px;
+  }
+  .price-dashboard-mobile-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .price-dashboard-mobile-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .price-dashboard-mobile-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .price-dashboard-mobile-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
+  }
+  .price-dashboard-mobile-card-body-num {
+    font-family: "Montserrat", sans-serif;
+  }
+  .price-dashboard-mobile-card-button {
+    color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 23px;
   }
 }
 .name {
@@ -2077,6 +2279,14 @@ ul {
   background: transparent;
 }
 
+.profile-dashboard-mobile {
+  display: none;
+}
+
+.profile-dashboard-mobile-bottom {
+  display: none;
+}
+
 .profile-dispute-select {
   color: #03037a;
   padding: 12px 0px;
@@ -2299,6 +2509,18 @@ ul {
 .name-details-stars > img {
   width: 16px;
   height: 16px;
+}
+
+.profile-dashboard-offer-mobile {
+  display: none;
+}
+
+.profile-dashboard-request-mobile {
+  display: none;
+}
+
+.profile-dashboard-bought-mobile {
+  display: none;
 }
 
 .profile-dashboard-offer-lead > h3 {
@@ -2597,6 +2819,216 @@ ul {
     width: 90%;
     margin-left: 0;
   }
+
+  .profile-dashboard {
+    display: none;
+  }
+  .profile-dashboard-mobile {
+    display: block;
+  }
+  .profile-dashboard-mobile-title {
+    text-align: center;
+    color: #03037a;
+    padding-bottom: 55px;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .profile-dashboard-mobile-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .profile-dashboard-mobile-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .profile-dashboard-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-dashboard-mobile-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-mobile-card-title {
+    margin-bottom: 20px;
+  }
+  .profile-dashboard-mobile-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .profile-dashboard-mobile-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-mobile-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .profile-dashboard-mobile-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
+  }
+  .profile-dashboard-mobile-card-body-num {
+    font-family: "Montserrat", sans-serif;
+  }
+  .profile-dashboard-mobile-card-button {
+    color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 23px;
+  }
+
+  .profile-dashboard-bottom {
+    display: none;
+  }
+
+  .profile-dashboard-mobile-bottom {
+    display: block;
+  }
+  .profile-dashboard-mobile-bottom-title {
+    text-align: center;
+    color: #03037a;
+    padding-bottom: 55px;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .profile-dashboard-mobile-bottom-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .profile-dashboard-mobile-bottom-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .profile-dashboard-mobile-bottom-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-dashboard-mobile-bottom-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-mobile-bottom-card-title {
+    margin-bottom: 20px;
+  }
+  .profile-dashboard-mobile-bottom-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .profile-dashboard-mobile-bottom-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-mobile-bottom-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .profile-dashboard-mobile-bottom-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
+  }
+  .profile-dashboard-mobile-bottom-card-body-num {
+    font-family: "Montserrat", sans-serif;
+  }
+  .profile-dashboard-mobile-bottom-card-body-total {
+    color: #bd1727;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .profile-dashboard-mobile-bottom-card-body-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .profile-dashboard-mobile-bottom-card-body-buttons > button {
+    background-color: transparent;
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+  .profile-dashboard-mobile-bottom-card-button {
+    color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 23px;
+  }
 }
 @media screen and (max-width: 992px) {
   .profile-dispute-wrapper {
@@ -2698,6 +3130,342 @@ ul {
   .sells-total-button {
     width: 90%;
     margin-left: 0;
+  }
+
+  .profile-dashboard-offer {
+    display: none;
+  }
+  .profile-dashboard-offer-mobile {
+    display: block;
+  }
+  .profile-dashboard-offer-mobile-title {
+    text-align: center;
+    color: #03037a;
+    padding-bottom: 55px;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .profile-dashboard-offer-mobile-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .profile-dashboard-offer-mobile-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .profile-dashboard-offer-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-dashboard-offer-mobile-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-offer-mobile-card-title {
+    margin-bottom: 20px;
+  }
+  .profile-dashboard-offer-mobile-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .profile-dashboard-offer-mobile-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-offer-mobile-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .profile-dashboard-offer-mobile-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
+  }
+  .profile-dashboard-offer-mobile-card-body-num {
+    font-family: "Montserrat", sans-serif;
+  }
+  .profile-dashboard-offer-mobile-card-body-total {
+    color: #bd1727;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .profile-dashboard-offer-mobile-card-body-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .profile-dashboard-offer-mobile-card-body-buttons > button {
+    background-color: transparent;
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+  .profile-dashboard-offer-mobile-card-button {
+    color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 23px;
+  }
+
+  .profile-dashboard-request {
+    display: none;
+  }
+  .profile-dashboard-request-mobile {
+    display: block;
+  }
+  .profile-dashboard-request-mobile-title {
+    text-align: center;
+    color: #03037a;
+    padding-bottom: 55px;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .profile-dashboard-request-mobile-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .profile-dashboard-request-mobile-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .profile-dashboard-request-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-dashboard-request-mobile-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-request-mobile-card-title {
+    margin-bottom: 20px;
+  }
+  .profile-dashboard-request-mobile-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .profile-dashboard-request-mobile-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-request-mobile-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .profile-dashboard-request-mobile-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
+  }
+  .profile-dashboard-request-mobile-card-body-num {
+    font-family: "Montserrat", sans-serif;
+  }
+  .profile-dashboard-request-mobile-card-body-total {
+    color: #bd1727;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .profile-dashboard-request-mobile-card-body-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .profile-dashboard-request-mobile-card-body-buttons > button {
+    background-color: transparent;
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+  .profile-dashboard-request-mobile-card-button {
+    color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 23px;
+  }
+
+  .profile-dashboard-bought {
+    display: none;
+  }
+  .profile-dashboard-bought-mobile {
+    display: block;
+  }
+  .profile-dashboard-bought-mobile-title {
+    text-align: center;
+    color: #03037a;
+    padding-bottom: 55px;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .profile-dashboard-bought-mobile-wrapper {
+    background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
+    border-radius: 20px;
+    padding: 45px 0;
+  }
+  .profile-dashboard-bought-mobile-wrapper > button {
+    border-radius: 10px;
+    background-color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 19px 0;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .profile-dashboard-bought-mobile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-dashboard-bought-mobile-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-bought-mobile-card-title {
+    margin-bottom: 20px;
+  }
+  .profile-dashboard-bought-mobile-card-title-text {
+    color: #272727;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .profile-dashboard-bought-mobile-card-body {
+    align-items: baseline;
+    color: #141313;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .profile-dashboard-bought-mobile-card-body:last-child {
+    margin-bottom: 0;
+  }
+  .profile-dashboard-bought-mobile-card-body-line {
+    background-color: #3856c8;
+    opacity: 0.2;
+    width: 30%;
+    height: 1px;
+  }
+  .profile-dashboard-bought-mobile-card-body-num {
+    font-family: "Montserrat", sans-serif;
+  }
+  .profile-dashboard-bought-mobile-card-body-total {
+    color: #bd1727;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .profile-dashboard-bought-mobile-card-body-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .profile-dashboard-bought-mobile-card-body-buttons > button {
+    background-color: transparent;
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+  .profile-dashboard-bought-mobile-card-button {
+    color: #f9807d;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 23px;
   }
 }
 .dashboard-mobile {
@@ -2870,8 +3638,8 @@ ul {
     margin-bottom: 20px;
   }
   .dashboard-mobile-card-title-num {
+    font-family: "Montserrat", sans-serif;
     color: #17bd1b;
-    font-family: Raleway;
     font-size: 42px;
     font-weight: 700;
     margin-right: 15px;
