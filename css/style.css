@@ -1193,12 +1193,22 @@ ul {
 }
 @media screen and (max-width: 576px) {
   .referal-main-left > h1 {
-    font-size: 38px;
+    font-size: 26px;
     margin-bottom: 20px;
   }
   .referal-main-left > p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .referal-main-left > p:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .referal-main-left > h3 {
+    font-size: 26px;
+  }
+  .referal-main-left > span {
+    font-size: 20px;
   }
 }
 .contact-main {
@@ -1347,6 +1357,15 @@ ul {
   }
   .reg-main-wrapper-right {
     width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .reg-main {
+    padding: 50px 0;
+  }
+  .reg-main-wrapper-right > h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
   }
 }
 .conditions-title {
@@ -1727,18 +1746,18 @@ ul {
 @media screen and (max-width: 576px) {
   .usage-title {
     margin-bottom: 20px;
-    font-size: 38px;
+    font-size: 26px;
   }
   .usage-wrapper {
     margin-bottom: 0;
   }
   .usage-wrapper-title {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .usage-wrapper-text {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 20px;
   }
 }
@@ -2895,6 +2914,14 @@ ul {
   }
   .name-details-item {
     margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .name-title {
+    font-size: 26px !important;
+    margin-bottom: 10px !important;
+  }
+  .name-tags-title {
+    font-size: 20px;
   }
 
   .formgroup-wrapper {
@@ -2904,8 +2931,25 @@ ul {
   .formgroup-form {
     width: 100%;
   }
+  .formgroup-form-title {
+    font-size: 20px;
+  }
+  .formgroup-form-input {
+    padding: 10px 0 10px 25px;
+  }
   .formgroup-connection {
     width: 100%;
+  }
+  .formgroup-connection-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .formgroup-connection-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .formgroup-connection-img {
+    margin-bottom: 30px;
   }
   .formgroup-download {
     width: 100%;
@@ -2913,9 +2957,16 @@ ul {
   .formgroup-download-wrapper {
     padding: 45px 25px;
   }
+  .formgroup-download-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .formgroup-download-button {
+    margin-bottom: 30px;
+  }
 
   .sells {
-    padding: 70px 0;
+    padding: 50px 0;
   }
   .sells-total {
     flex-direction: column;
@@ -2938,12 +2989,13 @@ ul {
   .profile-dashboard-mobile-title {
     text-align: center;
     color: #03037a;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     font-size: 35px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    font-size: 26px;
   }
   .profile-dashboard-mobile-wrapper {
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
@@ -3036,12 +3088,13 @@ ul {
   .profile-dashboard-mobile-bottom-title {
     text-align: center;
     color: #03037a;
-    padding-bottom: 55px;
     font-size: 35px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    font-size: 26px;
+    padding-bottom: 30px;
   }
   .profile-dashboard-mobile-bottom-wrapper {
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
@@ -3166,6 +3219,57 @@ ul {
   .profile-dispute-right {
     width: 100%;
     order: 1;
+  }
+}
+@media screen and (max-width: 576px) {
+  .profile-disputes {
+    padding: 50px 0;
+  }
+  .profile-disputes > div > h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .profile-dispute > p {
+    font-size: 20px;
+  }
+  .profile-dispute-right > h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .profile-dispute-right > p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .profile-dispute-right > p > a {
+    font-size: 16px;
+  }
+  .profile-dispute-left {
+    margin: 30px 0 0 0;
+  }
+  .profile-dispute-left > h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .profile-dispute-left > p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .profile-dispute-left > p > a {
+    font-size: 16px;
+  }
+  .profile-dispute-form > textarea {
+    width: 100%;
+    min-height: 250px;
+    font-size: 18px;
+  }
+  .profile-dispute > div > table tbody tr td > span {
+    font-size: 16px;
+  }
+  .profile-dispute > div > table tbody tr td > p {
+    font-size: 16px;
+  }
+  .profile-dispute > div > table tbody tr td > a {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1200px) {
