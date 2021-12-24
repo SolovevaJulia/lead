@@ -3658,9 +3658,9 @@ ul {
     font-size: 30px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 576px) {
   .dashboard-main {
-    display: block;
+    display: none;
   }
 
   .dashboard-mobile {
