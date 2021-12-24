@@ -593,6 +593,16 @@ ul {
   .service-wrapper-descr:nth-child(2) {
     width: 100%;
   }
+  .service-wrapper-descr-title {
+    font-size: 22px;
+  }
+  .service-wrapper-descr-subtitle {
+    font-size: 16px;
+  }
+  .service-wrapper-descr-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 .benefits {
   padding: 105px 0;
