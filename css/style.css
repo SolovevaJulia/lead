@@ -729,7 +729,7 @@ ul {
     padding: 50px 0;
   }
   .benefits-title {
-    font-size: 30px;
+    font-size: 26px;
   }
   .benefits-wrapper-card {
     width: 100%;
@@ -861,7 +861,7 @@ ul {
     padding-top: 50px;
   }
   .offer-title {
-    font-size: 38px;
+    font-size: 26px;
     margin-bottom: 20px;
   }
 }
@@ -1016,11 +1016,12 @@ ul {
 }
 @media screen and (max-width: 576px) {
   .about-main-left > h1 {
-    font-size: 38px;
+    font-size: 26px;
     margin-bottom: 20px;
   }
   .about-main-left > p {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 20px;
   }
 }
@@ -3690,7 +3691,7 @@ ul {
     letter-spacing: normal;
     line-height: normal;
     font-size: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .dashboard-mobile-wrapper > button {
     border-radius: 10px;
