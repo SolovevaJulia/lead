@@ -858,11 +858,16 @@ ul {
 }
 @media screen and (max-width: 576px) {
   .offer {
-    padding-top: 50px;
+    padding: 0;
   }
   .offer-title {
     font-size: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .card-descr-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
   }
 }
 .header-sections {
@@ -915,6 +920,11 @@ ul {
 @media screen and (max-width: 992px) {
   .breadcrumbs {
     padding: 50px 0 50px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .breadcrumbs {
+    padding: 25px 0;
   }
 }
 .about-main {
@@ -1015,6 +1025,9 @@ ul {
   }
 }
 @media screen and (max-width: 576px) {
+  .about-main {
+    padding-bottom: 10px;
+  }
   .about-main-left > h1 {
     font-size: 26px;
     margin-bottom: 20px;
@@ -1286,13 +1299,23 @@ ul {
   }
 }
 @media screen and (max-width: 576px) {
+  .contact-main {
+    margin-bottom: 60px;
+  }
   .contact-main-title > h1 {
-    font-size: 38px;
+    font-size: 26px;
     margin-bottom: 20px;
   }
   .contact-main-title > p {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 20px;
+  }
+  .contact-main-wrapper-left-info > p {
+    font-size: 20px;
+  }
+  .contact-main-wrapper-left-info > a {
+    font-size: 20px;
   }
 }
 .reg-main {
@@ -1498,11 +1521,15 @@ ul {
 }
 @media screen and (max-width: 576px) {
   .conditions-title {
-    font-size: 38px;
+    font-size: 26px;
     margin-bottom: 20px;
   }
+  .conditions-wrapper {
+    margin-bottom: 30px;
+  }
   .conditions-wrapper-left-text {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 20px;
   }
   .conditions-buttons {
@@ -1526,12 +1553,13 @@ ul {
   .conditions-dashboard-mobile-title {
     text-align: center;
     color: #03037a;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     font-size: 35px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    font-size: 26px;
   }
   .conditions-dashboard-mobile-wrapper {
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
@@ -1846,10 +1874,11 @@ ul {
     padding: 0 0 20px 0;
   }
   .price-title {
-    font-size: 38px;
+    font-size: 26px;
   }
   .price-wrapper-left-text {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 20px;
   }
 
@@ -1858,6 +1887,7 @@ ul {
   }
   .price-dashboard-mobile {
     display: block;
+    margin-bottom: 30px;
   }
   .price-dashboard-mobile-wrapper {
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
@@ -3189,11 +3219,19 @@ ul {
   }
 }
 @media screen and (max-width: 576px) {
+  .name {
+    padding: 30px 0;
+  }
   .name-details {
     flex-direction: column;
   }
   .name-details-item {
     margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .name-title-dashboard {
+    font-size: 26px;
+    margin-bottom: 20px;
   }
 
   .sells {
@@ -3216,16 +3254,18 @@ ul {
   }
   .profile-dashboard-offer-mobile {
     display: block;
+    margin-bottom: 30px;
   }
   .profile-dashboard-offer-mobile-title {
     text-align: center;
     color: #03037a;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     font-size: 35px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    font-size: 26px;
   }
   .profile-dashboard-offer-mobile-wrapper {
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
@@ -3328,16 +3368,18 @@ ul {
   }
   .profile-dashboard-request-mobile {
     display: block;
+    margin-bottom: 30px;
   }
   .profile-dashboard-request-mobile-title {
     text-align: center;
     color: #03037a;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     font-size: 35px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    font-size: 26px;
   }
   .profile-dashboard-request-mobile-wrapper {
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
@@ -3444,12 +3486,13 @@ ul {
   .profile-dashboard-bought-mobile-title {
     text-align: center;
     color: #03037a;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     font-size: 35px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+    font-size: 26px;
   }
   .profile-dashboard-bought-mobile-wrapper {
     background-image: linear-gradient(-106deg, #4566d0 0%, #324dc5 100%);
@@ -3892,8 +3935,14 @@ ul {
   .form > input {
     padding: 10px 0 10px 20px;
   }
+  .form-individual {
+    margin: 70px 0 30px 0;
+  }
   .form-individual-left > h3 {
-    font-size: 23px;
+    font-size: 26px !important;
+  }
+  .form-individual-right > img {
+    width: 60%;
   }
   .form-buttons > button {
     padding: 8px 0 8px 14px;
